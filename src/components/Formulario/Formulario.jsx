@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 export default function Formulario() {
@@ -10,7 +11,7 @@ export default function Formulario() {
       <div className='flex justify-around pt-20 pb-32'>
         <div className='flex flex-col bg-[#E9E9E9] justify-center items-center h-[181px] w-[347px] gap-8'>
           <p className='text-blanco text-xl font-semibold drop-shadow-2xl'>Tlf / Whatsapp</p>
-          <p className='text-azul text-xl font-semibold'>633 261 963</p>
+       <Link to='https://wa.me/34633261963'><p className='text-azul hover:text-verde text-xl font-semibold hover-verde'>633 261 963</p></Link>   
         </div>
         <div className='flex flex-col bg-[#E9E9E9] justify-center items-center h-[181px] w-[347px] gap-8'>
           <p className='text-blanco text-xl font-semibold drop-shadow-2xl'>Email</p>

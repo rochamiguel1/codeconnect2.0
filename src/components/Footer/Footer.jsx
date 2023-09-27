@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import lf from '../../assets/2.svg'
+import ws from '../../assets/whatsapp.png'
+import int from '../../assets/instagram.png'
 
 
 export default function Footer() {
@@ -40,17 +42,27 @@ export default function Footer() {
                     <p className='text-blanco w-72 z-20 relative bottom-10'>Code Connect ayuda a clínicas y consultas privadas a ganar visibilidad y llegar a más pacientes.</p>
                 </div>
             </div>
-            <div className="flex bg-verde text-blanco justify-start pl-28 pb-5 gap-2 ">
-               <Link to='/Privacidad' ><p className='hover:text-azul'>Privacidad</p></Link> 
-                <div className='bg-blanco h-5 w-[2px] '></div>
-                <Link to='/Aviso'><p className='hover:text-azul'>Aviso Legal</p> </Link>
-                <div className='bg-blanco h-5 w-[2px] '></div>
-                <Link to='/Cookies'> <p className='hover:text-azul'>Cookies</p></Link>
-                <div className='bg-blanco h-5 w-[2px] '></div>
-                <Link to='/AboutUs'> <p className='hover:text-azul'>Acerca de</p></Link>
-                <div className='bg-blanco h-5 w-[2px] '></div>
-                <Link to={'/Contact'}><p className='hover:text-azul'>Contacto</p> </Link>
+
+            <div className='flex bg-verde justify-between'>
+
+                <div className="flex bg-verde text-blanco justify-start pl-28 pb-5 gap-2 ">
+                    <Link to='/Privacidad' ><p className='hover:text-azul'>Privacidad</p></Link>
+                    <div className='bg-blanco h-5 w-[2px] '></div>
+                    <Link to='/Aviso'><p className='hover:text-azul'>Aviso Legal</p> </Link>
+                    <div className='bg-blanco h-5 w-[2px] '></div>
+                    <Link to='/Cookies'> <p className='hover:text-azul'>Cookies</p></Link>
+                    <div className='bg-blanco h-5 w-[2px] '></div>
+                    <Link to='/AboutUs'> <p className='hover:text-azul'>Acerca de</p></Link>
+                    <div className='bg-blanco h-5 w-[2px] '></div>
+                    <Link to={'/Contact'}><p className='hover:text-azul'>Contacto</p> </Link>
+                </div>
+                <div className='flex gap-4 mr-40'>
+                   <Link to='https://wa.me/34633261963'><img src={ws} alt="whatsapp" className='h-[30px] w-[30px]'/></Link> 
+                   <Link to='https://www.instagram.com/codeconnectsl/'><img src={int} alt="Instagram" className='h-[30px] w-[30px]' /></Link> 
+                </div>
             </div>
+
+
             <div className='flex bg-verde justify-center items-center h-16 text-blanco'>
                 <p>Todos los derechos reservados CodeConnect</p>
             </div>
