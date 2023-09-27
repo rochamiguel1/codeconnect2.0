@@ -23,6 +23,7 @@ export default function Formulario() {
         </div>
       </div>
 
+<div className='pb-10 bg-[#E9E9E9]'>
 
       <section className='flex bg-support h-[410px] text-blanco justify-around'>
 
@@ -42,7 +43,7 @@ export default function Formulario() {
         </div>
 
         <div className='h-[580px] w-[445px] bg-[#E9E9E9] flex justify-center items-center p-4 rounded relative bottom-24 border-2 border-gris'>
-          <form className="flex flex-col gap-2 ">
+          <form className="flex flex-col gap-2 text-negro">
             <input className="border border-border rounded h-[47px] w-[347px] " type="text" id="name" placeholder=' Nombre Completo' />
             <input className="border border-border rounded h-[47px] w-[347px]" type="email" name="mail" id="" placeholder=' Email' />
             <input className="border border-border rounded h-[47px] w-[347px] " type="tel" name="phone" id="phone" placeholder=" Teléfono" />
@@ -58,6 +59,7 @@ export default function Formulario() {
         </div>
 
       </section>
+</div>
 
 
 
