@@ -13,12 +13,12 @@ export default function Strategy() {
             </div>
             <div className='flex flex-col gap-4 ml-48 items-center h-[70px] w-[490px]cd '>
                 <div className='flex gap-4 text-blanco  '>
-                    <Link to='/Medicos'> <Enlaces text={'Medicos'} /> </Link>
+                    <Link to='/Médicos'> <Enlaces text={'Médicos'} /> </Link>
                     <Link to='/Fisios'><Enlaces text={'Fisios'} /> </Link>
                     <Link to='/Nutricionistas'><Enlaces text={'Nutricionistas'} /> </Link>
                 </div>
                 <div className='flex gap-4 text-blanco'>
-                    <Link to='/Psicólogos'><Enlaces text={'Psicólogos'} /> </Link>
+                    <Link to='/Psicologos'><Enlaces text={'Psicólogos'} /> </Link>
                     <Link to='/Dentistas'> <Enlaces text={'Dentistas'} /> </Link>
                     <Link to='/Entrenadores'><Enlaces text={'Entrenadores'} /> </Link>
                 </div>

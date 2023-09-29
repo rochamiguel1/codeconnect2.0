@@ -38,7 +38,7 @@ export default function Footer() {
                     <Link to='/Branding' className=' text-blanco p-1 hover:text-azul'>Branding</Link>
                 </div>
                 <div >
-                    <img src={lf} alt="" className='h-32 w-32 z-10 ' />
+                    <Link to='/'><img src={lf} alt="" className='h-32 w-32 z-10 ' /> </Link>
                     <p className='text-blanco w-72 z-20 relative bottom-10'>Code Connect ayuda a clínicas y consultas privadas a ganar visibilidad y llegar a más pacientes.</p>
                 </div>
             </div>
@@ -57,8 +57,8 @@ export default function Footer() {
                     <Link to={'/Contact'}><p className='hover:text-azul'>Contacto</p> </Link>
                 </div>
                 <div className='flex gap-4 mr-40'>
-                   <Link to='https://wa.me/34633261963'><img src={ws} alt="whatsapp" className='h-[30px] w-[30px]'/></Link> 
-                   <Link to='https://www.instagram.com/codeconnectsl/'><img src={int} alt="Instagram" className='h-[30px] w-[30px]' /></Link> 
+                    <Link to='https://wa.me/34633261963'><img src={ws} alt="whatsapp" className='h-[40px] w-[40px]' /></Link>
+                    <Link to='https://www.instagram.com/codeconnectsl/'><img src={int} alt="Instagram" className='h-[40px] w-[40px]' /></Link>
                 </div>
             </div>
 
