@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Formulario() {
   return (
     <div>
-      <div className='h-[227px] bg-azul flex justify-center items-center text-blanco text-5xl font-bold'>Contacto
+      <div className='h-[227px] bg-azul  bg-cover  flex justify-center items-center text-blanco text-5xl font-bold'>Contacto
       </div>
 
       <div className='flex justify-around pt-20 pb-32'>
@@ -43,7 +43,7 @@ export default function Formulario() {
           </div>
 
           <div className='h-[580px] w-[445px] bg-[#E9E9E9] flex justify-center items-center p-4 rounded relative bottom-24 border-2 border-gris'>
-            <form action='' method='POST' className="flex flex-col gap-2 text-negro">
+            <form action='https://formsubmit.co/miroga2005@gmail.com' method='POST' className="flex flex-col gap-2 text-negro">
               <input className="border border-border rounded h-[47px] w-[347px] " type="text" name='nombre' id="name" placeholder=' Nombre Completo' required />
               <input className="border border-border rounded h-[47px] w-[347px]" type="email" name="mail" id="mail" placeholder=' Email' required/>
               <input className="border border-border rounded h-[47px] w-[347px] " type="tel" name="phone" id="phone" placeholder=" Teléfono" />

@@ -18,7 +18,8 @@ module.exports = {
         'nufondo': "url('./assets/diet.jpg')",
         'denfondo': "url('./assets/dentista.jpg')",
         'enfondo': "url('./assets/entrenar.jpg')",
-        'support':"url('./assets/support.png')"
+        'support':"url('./assets/support.png')",
+        'sin':"url('./assets/Sin.jpg')",
 
 
       }
