@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Enlaces from './Enlaces'
 import Button from '../Header/Button/Button'
-import './Mixstartegy.css'
+import './Mixstrategy.css'
 
 export default function MixStrategy() {
     return (
