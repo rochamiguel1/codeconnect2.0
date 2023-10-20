@@ -28,13 +28,13 @@ function App() {
       <Routes>
 
         <Route path='/' element={< Home />} />
-        <Route path='/Médicos' element={<Medicos />} />
+        <Route path='/Medicos' element={<Medicos />} />
         <Route path='/Psicologos' element={< Psicologos />} />
         <Route path='/Fisios' element={< Fisios />} />
         <Route path='/Dentistas' element={<Dentistas />} />
         <Route path='/Nutricionistas' element={<Nutricionistas />} />
         <Route path='/Entrenadores' element={<Entrenadores />} />
-        <Route path='/DiseñoWeb' element={<DiseñoWeb />} />
+        <Route path='/WebDesign' element={<DiseñoWeb />} />
         <Route path='/Ads' element={<Ads />} />
         <Route path='/CopyWriting' element={<CopyWriting/>} />
         <Route path='/EmailMarketing' element={<EmailMarketing />} />

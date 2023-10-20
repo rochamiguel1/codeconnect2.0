@@ -10,7 +10,7 @@ export default function MixStrategy() {
             <div className='textoMstra '>
                 <h2 className=' '>MARKETING ONLINE</h2>
                 <h3 className=''>Servicios adaptados al sector sanitario</h3>
-            <Link to='/Contact'>    <Button text={'cuentanos tu caso'} /></Link>
+            <Link to='/Contact' target='top'><Button text={'cuentanos tu caso'} /></Link>
             </div>
             <div className='contenedorenlacesMstra  '>
                 <div className='mstra1 '>

@@ -15,7 +15,7 @@ export default function HealthAgency({ text1, text2, img }) {
       <p > {text2}</p>
       <div className=' botones'>
         <Link to='/Contact'> <Button text={'Contacto'} /></Link>
-        <Link to='/AboutUs'><Button text={'Sobre Nosotros'}></Button></Link>
+        <Button text={'Sobre Nosotros'}></Button>
       </div>
 
     </div>

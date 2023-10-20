@@ -10,7 +10,7 @@ export default function Strategy() {
             <div className='contenedortexto flex flex-col text-blanco items-start justify-start'>
                 <h3 className='linea1 text-4xl font-bold'>Estrategias</h3>
                 <h3 className='linea2 text-2xl font-bold'>Para cada especialidad</h3>
-                <Link to='/Contact' ><button className='h-[55px] w-[190px] text-blanco rounded border mt-5 mb-10'>Cuentanos tu caso</button> </Link>
+                <Link to='/Contact' target='top'><button className='h-[55px] w-[190px] text-blanco rounded border mt-5 mb-10'>Cuentanos tu caso</button> </Link>
             </div>
             <div className=' contenedorenlaces '>
                 <div className='grupo1 flex gap-4 text-blanco  '>
