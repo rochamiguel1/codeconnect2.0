@@ -35,11 +35,11 @@ export default function Footer() {
                     </div>
                     <div className='contenedorespecialidades'>
                         <h2 >Otros Servicios</h2>
-                        <Link to='/Plan360' className='especialidades1 text-blanco p-1 hover:text-azul'>Plan 360</Link>
-                        <Link to='/Consultoria' className='especialidades1 '>Consultoria</Link>
-                        <Link to='/EmailMKT' className='especialidades1 '>Formación</Link>
-                        <Link to='/Redes' className='especialidades1 '>Comunicación</Link>
-                        <Link to='/Branding' className='especialidades1 '>Branding</Link>
+                     <p    className='especialidades1 text-blanco p-1 hover:text-azul'>Plan 360</p>
+                     <p className='especialidades1 '>Consultoria</p> 
+                     <p className='especialidades1 '>Formación</p>
+                     <p  className='especialidades1 '>Comunicación</p>
+                        <p className='especialidades1 '>Branding</p>
                     </div>
                 
                 <div className='contenedorlogo'>
