@@ -1,0 +1,29 @@
+
+.boton {
+    background-color: #194973;
+    color: #71C648;
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    font-size: 1em;
+}
+
+
+@media screen and (max-width:480px){
+    .boton{
+        height: 2.5rem;
+        width: 6rem;
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width:720px){
+    .boton{
+        height: 2.5rem;
+        width: 6rem;
+        font-size: 0.75em;
+    }
+}

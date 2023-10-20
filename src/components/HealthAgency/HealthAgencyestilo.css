@@ -1,42 +1,86 @@
-
-
-
-
 .contenedor {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/home.png);
-    background-attachment: fixed;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/home.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 64px;
-    height: 562px;
-    gap: 20px;
-    
+    padding: 4rem;
+    gap: 1rem;
+    height: 32rem;
+
 }
- 
+
 .contenedor h2 {
     justify-content: center;
-    font-size: 48px;
-    line-height: 1;
-    color: #71C648
+    font-size: 3em;
+    line-height: 2rem;
+    color: #71C648;
+    gap: 1rem;
 }
 
 .contenedor p {
-    font-size:  16px ;
-    line-height: 24px ;
-    padding-top: 16px ;
+    font-size: 1em;
+    line-height: 1rem;
+    padding-top: 1rem;
     color: #71C648
-
 }
 
 .botones {
-    display: flex;
-    gap: 96px;
-    padding-top: 32px ;
-    justify-content: center;
+    gap: 5rem;
+}
+
+@media screen and (max-width:480px) {
+    .contenedor {
+        max-width: 30rem;
+        max-height: 100%;
+    }
+
+    .contenedor h2 {
+        justify-content: center;
+        font-size: 1.5em;
+        gap: 10rem;
+        color: #71C648;
+        /* tipografia responsive : el primer valor es el valor minimo que tendra la tipografia, el segundo valor esta hecho al porcentaje del
+     tamaño de la ventana en vw y tercer valor es el maximo tamaño o limite que puede llegar la fuente */
+        /* font-size: clamp(1rem / 20vw / 2rem); */
+
+    }
+
+    .contenedor p {
+        font-size: 0.75em;
+    }
+    .botones {
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    .contenedor {
+        max-width: 60rem;
+        max-height: 100%;
+    }
+
+    .contenedor h2 {
+        justify-content: center;
+        font-size: 1.9em;
+        gap: 10rem;
+        color: #71C648;
+    }
+
+    .contenedor p {
+        font-size: 0.9em;
+    }
+
+    .botones {
+        gap: 2rem;
+    }
+
 
 }

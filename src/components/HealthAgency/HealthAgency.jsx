@@ -13,10 +13,9 @@ export default function HealthAgency({ text1, text2, img }) {
     <div className="contenedor" >
       <h2  >{text1} </h2>
       <p > {text2}</p>
-
       <div className=' botones'>
-        <Button text={'Contacto'} />
-        <Link to='/AboutUs'><button className=' bg-azul text-verde h-12 w-40 justify-center items-center rounded '>Sobre Nosotros</button></Link>
+        <Link to='/Contact'> <Button text={'Contacto'} /></Link>
+        <Link to='/AboutUs'><Button text={'Sobre Nosotros'}></Button></Link>
       </div>
 
     </div>

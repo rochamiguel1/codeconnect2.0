@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      backgroundImage:{
+      backgroundImage: {
         'fondoHome': "url('./assets/home.png')",
         'adsfondo': "url('./assets/adsFondo.png')",
         'dwfondo': "url('./assets/dwFondo.png')",
@@ -18,10 +18,8 @@ module.exports = {
         'nufondo': "url('./assets/diet.jpg')",
         'denfondo': "url('./assets/dentista.jpg')",
         'enfondo': "url('./assets/entrenar.jpg')",
-        'support':"url('./assets/support.png')",
-        'sin':"url('./assets/Sin.jpg')",
-
-
+        'support': "url('./assets/support.png')",
+        'sin': "url('./assets/Sin.jpg')",
       }
     },
     colors: {
@@ -31,6 +29,14 @@ module.exports = {
       'blanco': '#ffffff',
       'negro': '#000',
     },
+    screens:{
+      'tablet': '640px',
+       // => @media (min-width: 640px) { ... }
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    }
   },
   plugins: [],
 }
