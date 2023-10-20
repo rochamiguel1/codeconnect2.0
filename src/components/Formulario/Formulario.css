@@ -1,0 +1,214 @@
+.contactoazul {
+    height: 14.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #194973;
+}
+
+.contenedormaneras {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.contenedorwhatsapp {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    justify-content: center;
+    align-items: center;
+    height: 11.3125rem;
+    width: 21.6875rem;
+    gap: 2rem;
+}
+
+.contenedorwhatsapp h3 {
+    color: #9196c0;
+    font-size: 1.25em;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.contenedorwhatsapp p {
+    color: #194973;
+    font-size: 1.25em;
+    line-height: 1.75rem;
+    font-weight: 600;
+
+}
+
+.contenedorwhatsapp p:hover {
+    color: #71C648;
+}
+
+.contenedorwhatsapp h4 {
+    color: #194973;
+    font-size: 1.25em;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.contenedor24 {
+    padding-bottom: 2.5rem;
+    background-color: #E9E9E9;
+}
+
+.contenedorseccion {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/support.png);
+    height: 25.625rem;
+    color: #ffffff;
+    justify-content: space-around;
+}
+
+.contenedortexto24 h1 {
+    font-weight: 600;
+    font-size: 1.875em;
+    line-height: 2.25rem;
+    justify-content: center;
+    height: 4.625rem;
+    margin-top: 6rem;
+}
+
+.contenedorpreferencias {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.preferencias {
+    flex-direction: column;
+}
+
+.preferencias h2 {
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.75rem;
+}
+
+.preferencias h3 {
+    font-weight: 600;
+    height: 4.3125rem;
+    width: 20.3125rem;
+}
+
+.contenedorformulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    position: relative;
+    bottom: 6rem;
+    border-width: 2px;
+    border-color: #5A6D6D;
+    padding: 1rem;
+    height: 36.25rem;
+    background-color: #E9E9E9;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    color: #000;
+}
+
+.formularioetiqueta {
+    border-width: .0625rem;
+    border-radius: 0.25rem;
+    height: 2.9375rem;
+    width: 21.6875rem;
+}
+
+.formulariotexto {
+    border-width: .0625rem;
+    border-radius: 0.25rem;
+
+}
+
+.autorizar {
+    display: flex;
+    justify-content: flex-start;
+    text-align:start;
+    max-width: 29.375rem;
+    gap: 0.25rem;
+    color: #000;
+    
+}
+
+.botonenviar {
+    background-color: #194973;
+    color: #ffffff;
+    font-size: 0.875em;
+    line-height: 1.25rem;
+    padding: 0.5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 1.25rem;
+}
+
+.botonenviar:hover {
+    color: #71C648;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .contactoazul {
+        
+        font-size: 2em;
+       
+    }
+
+
+    .contenedortexto24 {
+        display: none;
+    }
+
+    .contenedorformulario {
+        bottom: 6rem;
+        border-width: 2px;
+        padding: 1rem;
+        border-color: #5A6D6D;
+        background-color: #E9E9E9;
+        height: 33.25rem;
+        width: 22.8125rem;
+    }
+
+    .formulario {
+        gap: 0.1.9rem;
+        color: #000;
+    }
+
+    .formularioetiqueta {
+
+        height: 1.9375rem;
+        width: 16.6875rem;
+    }
+    .contenedorwhatsapp {
+        height: 7.3125rem;
+        width: 10.6875rem;
+        gap: 1rem;
+        background-color: #E9E9E9;
+    }
+
+    .contenedorwhatsapp h3 {
+        font-size: 1em;
+        line-height: 1.75rem;
+
+    }
+    .contenedorwhatsapp p {
+        font-size: 0.9em;
+        line-height: 1.75rem;
+    }
+
+    .contenedorwhatsapp h4 {
+        font-size: 0.9em;
+        line-height: 1.75rem;
+    }
+}

@@ -1,0 +1,50 @@
+.contenedorheader {
+    display: flex;
+    background: #71C648;
+    align-items: center;
+    gap: 3rem;
+    height: 3.5rem;
+}
+
+
+.contenedornavlinks {
+    display: flex;
+    column-gap: 1.75rem;
+    font-size: 1em;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 12rem;
+    width: 10rem;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .contenedorheader {
+        
+        background: #71C648;
+    }
+
+    .contenedornavlinks {
+        
+        font-size: 0.700em;
+        line-height: 0.75rem;
+    }
+       
+    .logo img {
+        height: 9rem;
+        width: 7rem;
+    }
+
+}

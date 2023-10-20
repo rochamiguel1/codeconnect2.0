@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from '../Header/Button/Button'
 import './MixAgencyestilo.css'
+import { Link } from 'react-router-dom'
+
 
 export default function MixDw({text1,text2}) {
   return (
@@ -9,7 +11,7 @@ export default function MixDw({text1,text2}) {
       <p className='  text-base font-semibold pt-4 text-blanco'> {text2}</p>
 
       <div className='flex gap-24 pt-8 justify-start'>
-        <Button text={'Contacto'} />
+       <Link to='/Contact'> <Button text={'Contacto'} /></Link>
         
 
       </div>

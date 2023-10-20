@@ -1,9 +1,10 @@
 import React from 'react'
+import '../Strategy/Strategy.css'
 
 export default function Enlaces({ text }) {
     return (
         <div>
-            <div className='flex flex-col  justify-center  text-2xl font-bold '>
+            <div className='todosenlaces '>
             {text}</div>
             </div>
 
