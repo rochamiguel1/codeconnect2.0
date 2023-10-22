@@ -16,9 +16,7 @@
 }
 
 .contenedorespecialidades h2 {
-    font-size: 1.5rem
-        /* 24px */
-    ;
+    font-size: 1.5em;
     line-height: 2rem;
     padding-bottom: 1.25rem
 }
@@ -102,7 +100,6 @@
 @media screen and (max-width:480px) {
 
     .contenedorfooter {
-        
         justify-content: space-around;
         padding: 2rem;
         gap: 16px;
@@ -110,13 +107,13 @@
     .contenedorespecialidades {
         font-size: 0.75em;
         line-height: 0.75rem;
-        padding-bottom: 1.25rem
+        padding-top: 1rem;
     }
-    .contenedorespecialidades h2 {
+    /* .contenedorespecialidades h2 {
         font-size: 1em;
         line-height: 1rem;
         padding-bottom: 2rem
-    }
+    } */
     .contenedorlogo {
         display: none;
     }
