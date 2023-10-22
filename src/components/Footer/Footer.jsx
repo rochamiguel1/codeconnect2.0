@@ -14,7 +14,7 @@ export default function Footer() {
                 
 
 
-                    <div className='contenedorespecialidades '>
+                    <div className='contenedorespecialidades1 '>
                         <h2>Especialidades</h2>
                         <Link to='/Medicos' className='especialidades1 ' target='top'>Medicos</Link>
                         <Link to='/Fisios' className='especialidades1 ' target='top'>Fisios</Link>
@@ -24,22 +24,22 @@ export default function Footer() {
                         <Link to='/Entrenadores' className='especialidades1 ' target='top'>Entrenadores</Link>
                     </div>
 
-                    <div className='contenedorespecialidades '>
+                    <div className='contenedorespecialidades2 '>
                         <h2 >Marketing Digital</h2>
-                        <Link to='/WebDesign' className=' especialidades1' target='top'>Web Design</Link>
-                        <Link to='/SEO' className='especialidades1 text-blanco p-1 hover:text-azul' target='top'>SEO</Link>
-                        <Link to='/Copywriting' className='especialidades1 ' target='top'>Copywriting</Link>
-                        <Link to='/EmailMarketing' className='especialidades1 ' target='top'>Email Marketing</Link>
-                        <Link to='/ADS' className='especialidades1 ' target='top'>ADS</Link>
-                        <Link to='/RedesSociales' className='especialidades1 ' target='top'>Redes Sociales</Link>
+                        <Link to='/WebDesign' className=' especialidades2' target='top'>Web Design</Link>
+                        <Link to='/SEO' className='especialidades2 text-blanco p-1 hover:text-azul' target='top'>SEO</Link>
+                        <Link to='/Copywriting' className='especialidades2 ' target='top'>Copywriting</Link>
+                        <Link to='/EmailMarketing' className='especialidades2 ' target='top'>Email Marketing</Link>
+                        <Link to='/ADS' className='especialidades2 ' target='top'>ADS</Link>
+                        <Link to='/RedesSociales' className='especialidades2 ' target='top'>Redes Sociales</Link>
                     </div>
-                    <div className='contenedorespecialidades'>
+                    <div className='contenedorespecialidades3'>
                         <h2 >Otros Servicios</h2>
-                     <p    className='especialidades1 text-blanco p-1 hover:text-azul' target='top'>Plan 360</p>
-                     <p className='especialidades1 ' target='top'>Consultoria</p> 
-                     <p className='especialidades1 ' target='top'>Formacion</p>
-                     <p  className='especialidades1 ' target='top'>Comunicacion</p>
-                        <p className='especialidades1 ' target='top'>Branding</p>
+                     <p    className='especialidades3 text-blanco p-1 hover:text-azul' target='top'>Plan 360</p>
+                     <p className='especialidades3 ' target='top'>Consultoria</p> 
+                     <p className='especialidades3 ' target='top'>Formacion</p>
+                     <p  className='especialidades3 ' target='top'>Comunicacion</p>
+                        <p className='especialidades3 ' target='top'>Branding</p>
                     </div>
                 
                 <div className='contenedorlogo'>
@@ -57,8 +57,8 @@ export default function Footer() {
                     <div className='privacidaddiv'></div>
                     <Link to='/Cookies' target='top'> <p className='privacidadtexto ' >Cookies</p></Link>
                     <div className='privacidaddiv'></div>
-                     <p className='privacidadtexto ' target='top'>Acerca de</p>
-                    <div className='privacidaddiv'></div>
+                     {/* <p className='privacidadtexto ' target='top'>Acerca de</p>
+                    <div className='privacidaddiv'></div> */}
                     <Link to={'/Contact'} target='top'><p className='privacidadtexto' >Contacto</p> </Link>
                 </div>
                 <div className='contenedorredes '>

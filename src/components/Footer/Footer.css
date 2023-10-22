@@ -1,21 +1,48 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
 .contenedorfooter {
     display: flex;
     background: #71C648;
     color: #194973;
     justify-content: space-around;
     padding: 2.5rem;
-
 }
 
-.contenedorespecialidades {
+.contenedorespecialidades1 {
     display: flex;
     flex-direction: column;
     font-size: 1em;
     line-height: 1.5rem;
     padding-bottom: 1.25rem
 }
-
-.contenedorespecialidades h2 {
+.contenedorespecialidades1 h2 {
+    font-size: 1.5em;
+    line-height: 2rem;
+    padding-bottom: 1.25rem
+}
+.contenedorespecialidades2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    line-height: 1.5rem;
+    padding-bottom: 1.25rem
+}
+.contenedorespecialidades2 h2 {
+    font-size: 1.5em;
+    line-height: 2rem;
+    padding-bottom: 1.25rem
+}
+.contenedorespecialidades3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    line-height: 1.5rem;
+    padding-bottom: 1.25rem
+}
+.contenedorespecialidades3 h2 {
     font-size: 1.5em;
     line-height: 2rem;
     padding-bottom: 1.25rem
@@ -27,6 +54,22 @@
 }
 
 .especialidades1:hover {
+    color: #194973;
+}
+
+.especialidades2 {
+    color: #ffffff;
+    padding: 0.25rem;
+}
+
+.especialidades2:hover {
+    color: #194973;
+}
+.especialidades3 {
+    color: #ffffff;
+    padding: 0.25rem;
+}
+.especialidades3:hover {
     color: #194973;
 }
 
@@ -104,16 +147,29 @@
         padding: 2rem;
         gap: 16px;
     }
-    .contenedorespecialidades {
+    .contenedorespecialidades1 {
         font-size: 0.75em;
         line-height: 0.75rem;
-        padding-top: 1rem;
+        
     }
-    /* .contenedorespecialidades h2 {
-        font-size: 1em;
-        line-height: 1rem;
-        padding-bottom: 2rem
-    } */
+
+   
+    .contenedorespecialidades1 h2{
+        margin-bottom: 1rem;
+    }
+
+    .contenedorespecialidades2 {
+        font-size: 0.75em;
+        line-height: 0.75rem;
+        
+    }
+    
+    .contenedorespecialidades3 {
+        font-size: 0.75em;
+        line-height: 0.75rem;
+        
+    }
+   
     .contenedorlogo {
         display: none;
     }
@@ -153,16 +209,39 @@
         padding: 2rem;
         gap: 16px;
     }
-    .contenedorespecialidades {
+    .contenedorespecialidades1 {
         font-size: 0.75em;
         line-height: 0.75rem;
         padding-bottom: 1.25rem
     }
-    .contenedorespecialidades h2 {
+    .contenedorespecialidades1 h2 {
         font-size: 1.2em;
         line-height: 1rem;
         padding-bottom: 2rem
     }
+    .contenedorespecialidades2 {
+        font-size: 0.75em;
+        line-height: 0.75rem;
+        padding-bottom: 1.25rem
+    }
+    .contenedorespecialidades2 h2 {
+        font-size: 1.2em;
+        line-height: 1rem;
+        padding-bottom: 2rem
+    }
+
+    .contenedorespecialidades3 {
+        font-size: 0.75em;
+        line-height: 0.75rem;
+        padding-bottom: 1.25rem
+    }
+    .contenedorespecialidades3 h2 {
+        font-size: 1.2em;
+        line-height: 1rem;
+        padding-bottom: 2rem
+    }
+
+
     .contenedorlogo {
         position: relative;
     

@@ -8,7 +8,7 @@ export default function MixStrategy() {
     return (
         <div className='contenedorMstra'>
             <div className='textoMstra '>
-                <h2 className=' '>MARKETING ONLINE</h2>
+                <h2 className=' '>Marketing Online</h2>
                 <h3 className=''>Servicios adaptados al sector sanitario</h3>
             <Link to='/Contact' target='top'><Button text={'cuentanos tu caso'} /></Link>
             </div>
@@ -23,9 +23,9 @@ export default function MixStrategy() {
                     <Link to='/Ads'> <Enlaces text={'ADS'} /> </Link>
                     <Link to='/RedesSociales'><Enlaces text={'Redes Sociales'} /> </Link>
                 </div>
-                <div className='mstra3 '>
+                {/* <div className='mstra3 '>
                     <Link to='/TiendasOnline'><Enlaces text={'Tiendas Online'} /> </Link>
-                </div>
+                </div> */}
             </div>
 
         </div>

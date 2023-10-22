@@ -1,184 +1,181 @@
-
 .contenedorMstra {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/moFondo.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/moFondo.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     display: flex;
     padding: 5rem;
 }
 
+.textoMstra {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 9.25rem;
+    width: 21.5625rem;
+}
+
+.textoMstra h2 {
+    font-size: 2.15em;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: #71C648;
+}
+
+.textoMstra h3 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #71C648;
+    margin-bottom: 2rem
+}
+
+.contenedorenlacesMstra {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 12rem;
+}
+
+.mstra1 {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    gap: 1rem;
+}
+
+.mstra2 {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    gap: 1rem;
+}
+
+/* .mstra3 {
+    gap: 1rem;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+} */
+
+.todosenlaces {
+    display: flex;
+
+}
+
+@media screen and (max-width:480px) {
+
+    .contenedorMstra {
+        padding: 2.5rem;
+        height: 15rem;
+    }
+
     .textoMstra {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 9.25rem;
-        width: 21.5625rem;
+        font-size: 0.75em;
+        line-height: 0.75rem;
+        height: 1.8rem;
+        width: 5.9rem;
     }
-    
+
     .textoMstra h2 {
-        font-size: 2em;
-        line-height: 2.5rem;
+        font-size: 1.5em;
+        line-height: 1.5rem;
         font-weight: 700;
-        color: #71C648;
+        padding-top: 1.5rem;
     }
-    
+
     .textoMstra h3 {
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 0.75em;
+        line-height: 1rem;
         font-weight: 700;
-        color: #71C648;
-        margin-bottom: 3rem
+        margin-bottom: 1.2rem;
     }
-    
     .contenedorenlacesMstra {
         display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        margin-left: 12rem;
+        flex-direction: row;
+        height: 1.5rem;
+        width: 2rem;
+        margin-left: 5rem;
     }
-    
+
     .mstra1 {
         display: flex;
-        flex-direction: row;
-        color: #ffffff;
-        font-size: 1.5em;
-        font-weight: 700;
+        flex-direction: column;
         gap: 1rem;
+        font-size: 0.9em;
+        line-height: 0.9rem;
+        padding-top: 1.5rem;
     }
-    
+
     .mstra2 {
         display: flex;
-        flex-direction: row;
-        color: #ffffff;
-        font-size: 1.5em;
-        font-weight: 700;
-        gap: 1rem;
-    }
-    
-    .mstra3 {
+        flex-direction: column;
         gap: 1rem;
         color: #ffffff;
-        font-size: 1.5em;
-        font-weight: 700;
+        font-size: 0.9em;
+        line-height: 0.9rem;
+        padding-top: 1.5rem;
     }
-    
-    .todosenlaces {
+
+    /* .mstra3 {
         display: flex;
-    
+        flex-direction: column;
+        gap: 1rem;
+        color: #ffffff;
+        font-size: 0.9em;
+        line-height: 0.9rem;
+        padding-top: 3.9rem;
+    } */
+
+    .todosenlaces {
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0.9rem ;
+        font-weight: 500;
     }
-    
-    @media screen and (max-width:480px) {
-    
-        .contenedorMstra {
-            padding: 2.5rem;
-            height: 15rem;
-        }
-    
-        .textoMstra {
-            font-size: 0.75em;
-            line-height: 0.75rem;
-            height: 1.8rem;
-            width: 5.9rem;
-        }
-    
-        .textoMstra h2 {
-            font-size: 1.5em;
-            line-height: 1.5rem;
-            font-weight: 700;
-            padding-top: 1.5rem;
-        }
-    
-        .textoMstra h3 {
-            font-size: 0.75em;
-            line-height: 1rem;
-            font-weight: 700;
-            margin-bottom: 1.2rem;
-        }
-    
-        .contenedorenlacesMstra {
-            display: flex;
-            flex-direction: row;
-            height: 1.5rem;
-            width: 2rem;
-            margin-left: 5rem;
-        }
-    
-        .mstra1 {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            font-size: 0.9em;
-            line-height: 0.9rem;
-            padding-top: 1.5rem;
-        }
-    
-        .mstra2 {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            color: #ffffff;
-            font-size: 0.9em;
-            line-height: 0.9rem;
-            padding-top: 1.5rem;
-        }
-    
-        .mstra3 {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            color: #ffffff;
-            font-size: 0.9em;
-            line-height: 0.9rem;
-            padding-top: 3.9rem;
-        }
-    
-        .todosenlaces {
-            flex-direction: column;
-            justify-content: center;
-            line-height: 0.9rem
-                /* 32px */
-            ;
-            font-weight: 500;
-    
-        }
-    
+}
+
+@media screen and (max-width: 720px) {
+
+
+    .textoMstra h2 {
+        font-size: 1.2em;
+
     }
-     @media screen and ( max-width: 720px) { 
-        
-    
-        .textoMstra h2 {
-            font-size: 1.2em;
-           
-        }
-    
-        .textoMstra h3 {
-            font-size: 1em;
-            line-height: 1.2rem;
-            margin-bottom: 1rem;
-        }
-    
-        .contenedorenlacesMstra {
-            line-height: 1rem;
-           margin-left: 3rem;
-        }
-        
-        .mstra1 {
-            display: flex;
-           flex-direction: column;
-            font-size: 1em;
-           
-        }
-        .mstra2 {
-            display: flex;
-           flex-direction: column;
-            font-size: 1em;
-        }
-        .mstra3 {
-            display: flex;
-            flex-direction: column;
-            font-size: 1em;
-            
-        }
+
+    .textoMstra h3 {
+        font-size: 1em;
+        line-height: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contenedorenlacesMstra {
+        line-height: 1rem;
+        margin-left: 3rem;
+    }
+
+    .mstra1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+
+    }
+
+    .mstra2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    /* .mstra3 {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+
+    } */
 }

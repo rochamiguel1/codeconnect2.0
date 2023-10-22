@@ -42,10 +42,13 @@ export default function Formulario() {
           </div>
 
           <div className='contenedorformulario '>
-            <form action='https://formsubmit.co/miroga2005@gmail.com' method='POST' className="formulario ">
-              <input className="formularioetiqueta " type="text" name='nombre' id="name" placeholder=' Nombre Completo' required />
-              <input className="formularioetiqueta  " type="email" name="mail" id="mail" placeholder=' Email' required />
+            <form action='https://formsubmit.co/info@codeconnect.es' method='POST' className="formulario ">
+              <input className="formularioetiqueta " type="text" name='nombre' id="name" placeholder=' Nombre Completo' pattern='^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$' required />
+             
+              <input className="formularioetiqueta  " type="email" name="mail" id="mail" placeholder=' Email' pattern='^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$' required />
+             
               <input className="formularioetiqueta   " type="tel" name="phone" id="phone" placeholder=" Teléfono" />
+             
               <textarea className="formulariotexto  " name="ayuda" placeholder=" ¿En qué podemos ayudarte?" id="ayuda" rows="10"
                 cols="10"></textarea>
               <div className="autorizar ">
@@ -53,14 +56,14 @@ export default function Formulario() {
                 <label htmlFor="agree">Acepto la Política de Privacidad y los Términos y condiciones.
                 </label>
               </div>
-              <input className="botonenviar " type="submit" name="Enviar" />
+              <input className="botonenviar " type="submit" name="Enviar" value="enviar" />
+              
+              <input type="hidden" name="_next" value="https://codeconnect.es"/>
             </form>
           </div>
 
         </section>
       </div>
-
-
 
     </div>
   )
