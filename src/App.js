@@ -26,7 +26,6 @@ function App() {
     < BrowserRouter>
 
       <Routes>
-
         <Route path='/' element={< Home />} />
         <Route path='/Medicos' element={<Medicos />} />
         <Route path='/Psicologos' element={< Psicologos />} />
@@ -36,16 +35,15 @@ function App() {
         <Route path='/Entrenadores' element={<Entrenadores />} />
         <Route path='/WebDesign' element={<DiseñoWeb />} />
         <Route path='/Ads' element={<Ads />} />
-        <Route path='/CopyWriting' element={<CopyWriting/>} />
+        <Route path='/CopyWriting' element={<CopyWriting />} />
         <Route path='/EmailMarketing' element={<EmailMarketing />} />
         <Route path='/RedesSociales' element={<RedesSociales />} />
         <Route path='/SEO' element={<Seo />} />
-        <Route path='/Contact' element={< Contact />}/>
-        <Route path='/AboutUs' element={< AboutUs />}/>
-        <Route path='/Aviso' element={< Aviso />}/>
-        <Route path='/Privacidad' element={< Privacidad />}/>
-        <Route path='/Cookies' element={<Cookies />}/>
-
+        <Route path='/Contact' element={< Contact />} />
+        <Route path='/AboutUs' element={< AboutUs />} />
+        <Route path='/Aviso' element={< Aviso />} />
+        <Route path='/Privacidad' element={< Privacidad />} />
+        <Route path='/Cookies' element={<Cookies />} />
       </Routes>
 
     </BrowserRouter>

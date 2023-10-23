@@ -57,9 +57,10 @@ export default function Footer() {
                     <div className='privacidaddiv'></div>
                     <Link to='/Cookies' target='top'> <p className='privacidadtexto ' >Cookies</p></Link>
                     <div className='privacidaddiv'></div>
+                    <Link to={'/Contact'} target='top'><p className='privacidadtexto' >Contacto</p> </Link>
+                    
                      {/* <p className='privacidadtexto ' target='top'>Acerca de</p>
                     <div className='privacidaddiv'></div> */}
-                    <Link to={'/Contact'} target='top'><p className='privacidadtexto' >Contacto</p> </Link>
                 </div>
                 <div className='contenedorredes '>
                     <Link to='https://wa.me/34633261963'><img src={ws} alt="whatsapp" /></Link>
