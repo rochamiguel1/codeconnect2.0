@@ -45,7 +45,6 @@ function App() {
         <Route path='/Aviso' element={< Aviso />} />
         <Route path='/Privacidad' element={< Privacidad />} />
         <Route path='/Cookies' element={<Cookies />} />
-        <Route path='/Footer' element={< Footer />} />
       </Routes>
 
     </BrowserRouter>

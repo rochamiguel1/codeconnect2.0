@@ -5,9 +5,9 @@ export default function Enlaces({ text }) {
     return (
         <div>
             <div className='todosenlaces '>
-            {text}</div>
-            </div>
+                {text}</div>
+        </div>
 
-        
+
     )
 }
