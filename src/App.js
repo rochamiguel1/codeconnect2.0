@@ -33,7 +33,7 @@ function App() {
         <Route path='/Dentistas' element={<Dentistas />} />
         <Route path='/Nutricionistas' element={<Nutricionistas />} />
         <Route path='/Entrenadores' element={<Entrenadores />} />
-        <Route path='/WebDesign' element={<DiseñoWeb />} />
+        <Route path='/DiseñoWeb' element={<DiseñoWeb />} />
         <Route path='/Ads' element={<Ads />} />
         <Route path='/CopyWriting' element={<CopyWriting />} />
         <Route path='/EmailMarketing' element={<EmailMarketing />} />

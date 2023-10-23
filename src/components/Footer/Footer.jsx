@@ -26,7 +26,7 @@ export default function Footer() {
 
                     <div className='contenedorespecialidades2 '>
                         <h2 >Marketing Digital</h2>
-                        <Link to='/WebDesign' className=' especialidades2' target='top'>Web Design</Link>
+                        <Link to='/DiseñoWeb' className=' especialidades2' target='top'>Diseño Web</Link>
                         <Link to='/SEO' className='especialidades2 text-blanco p-1 hover:text-azul' target='top'>SEO</Link>
                         <Link to='/Copywriting' className='especialidades2 ' target='top'>Copywriting</Link>
                         <Link to='/EmailMarketing' className='especialidades2 ' target='top'>Email Marketing</Link>
