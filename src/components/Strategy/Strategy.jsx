@@ -14,7 +14,7 @@ export default function Strategy() {
             </div>
             <div className=' contenedortexto '>
                 <div className='grupo1     '>
-                    <Link to='/Médicos'> <Enlaces text={'Médicos'} /> </Link>
+                   <Enlaces text={'Médicos'} /> 
                     <Link to='/Fisios'><Enlaces text={'Fisios'} /> </Link>
                     <Link to='/Nutricionistas'><Enlaces text={'Nutricionistas'} /> </Link>
                 </div>
