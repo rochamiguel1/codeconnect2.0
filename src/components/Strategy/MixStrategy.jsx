@@ -14,14 +14,14 @@ export default function MixStrategy() {
             </div>
             <div className='contenedorenlacesMstra  '>
                 <div className='mstra1 '>
-                    <Link to='/DiseñoWeb'> <Enlaces text={'Diseño Web'} /> </Link>
-                    <Link to='/Seo'><Enlaces text={'SEO'} /> </Link>
-                    <Link to='/CopyWriting'>< Enlaces text={'Copy Writing'} /> </Link>
+                    <Link to='/DiseñoWeb' target='top'> <Enlaces text={'Diseño Web'} /> </Link>
+                    <Link to='/Seo' target='top'><Enlaces text={'SEO'} /> </Link>
+                    <Link to='/CopyWriting' target='top'>< Enlaces text={'Copy Writing'} /> </Link>
                 </div>
                 <div className=' mstra2  '>
-                    <Link to='/EmailMarketing'><Enlaces text={'Email Marketing'} /> </Link>
-                    <Link to='/Ads'> <Enlaces text={'ADS'} /> </Link>
-                    <Link to='/RedesSociales'><Enlaces text={'Redes Sociales'} /> </Link>
+                    <Link to='/EmailMarketing' target='top'><Enlaces text={'Email Marketing'} /> </Link>
+                    <Link to='/Ads' target='top'> <Enlaces text={'ADS'} /> </Link>
+                    <Link to='/RedesSociales' target='top'><Enlaces text={'Redes Sociales'} /> </Link>
                 </div>
                 {/* <div className='mstra3 '>
                     <Link to='/TiendasOnline'><Enlaces text={'Tiendas Online'} /> </Link>

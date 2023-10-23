@@ -19,6 +19,7 @@ import AboutUs from './Pages/AboutUs';
 import Aviso from './Pages/Aviso';
 import Privacidad from './Pages/Privacidad';
 import Cookies from './Pages/Cookies';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path='/Aviso' element={< Aviso />} />
         <Route path='/Privacidad' element={< Privacidad />} />
         <Route path='/Cookies' element={<Cookies />} />
+        <Route path='/Footer' element={< Footer />} />
       </Routes>
 
     </BrowserRouter>
