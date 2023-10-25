@@ -15,12 +15,12 @@ export default function Footer() {
 
                 <div className='contenedorespecialidades1 '>
                     <h2>Especialidades</h2>
-                    <Link to='/Medicos' target='_top'  className='especialidades1 ' ><Enlaces text={'Medicos'} /></Link>
-                    <Link to='/Fisios' target='_top'  className='especialidades1 ' ><Enlaces text={'Fisios'} /></Link>
-                    <Link to='/Psicologos' target='_top'  className='especialidades1 ' ><Enlaces text={'Psicologos'} /></Link>
-                    <Link to='/Nutricionistas'target='_top'   className='especialidades1 ' ><Enlaces text={'Nutricionistas'} /></Link>
-                    <Link to='/Dentistas' target='_top' className='especialidades1 '><Enlaces text={'Dentistas'} /></Link>
-                    <Link to='/Entrenadores' target='_top'  className='especialidades1 ' ><Enlaces text={'Entrenadores'} /></Link>
+                    <Link to='/Medicos'  className='especialidades1 ' ><Enlaces text={'Medicos'} /></Link>
+                    <Link to='/Fisios'  className='especialidades1 ' ><Enlaces text={'Fisios'} /></Link>
+                    <Link to='/Psicologos'   className='especialidades1 ' ><Enlaces text={'Psicologos'} /></Link>
+                    <Link to='/Nutricionistas'  className='especialidades1 ' ><Enlaces text={'Nutricionistas'} /></Link>
+                    <Link to='/Dentistas'  className='especialidades1 '><Enlaces text={'Dentistas'} /></Link>
+                    <Link to='/Entrenadores'   className='especialidades1 ' ><Enlaces text={'Entrenadores'} /></Link>
 
                 </div>
 
