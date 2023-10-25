@@ -26,16 +26,16 @@ export default function Footer() {
 
                 <div className='contenedorespecialidades2 '>
                     <h2 >Marketing Digital</h2>
-                    <Link to='/DiseñoWeb'  target='_top' className=' especialidades2'><Enlaces text={'Diseño Web'} /></Link>
-                    <Link to='/SEO' target='_top' className='especialidades2 ' ><Enlaces text={'Seo'} /></Link>
-                    <Link to='/Copywriting' target='_top' className='especialidades2 ' ><Enlaces text={'Copywriting'} /></Link>
-                    <Link to='/EmailMarketing' target='_top' className='especialidades2 ' ><Enlaces text={'Email Marketing'} /></Link>
-                    <Link to='/ADS' target='_top' className='especialidades2 ' ><Enlaces text={'ADS'} /></Link>
-                    <Link to='/RedesSociales' target='_top'  className='especialidades2 ' ><Enlaces text={'Redes Sociales'} /></Link>
+                    <Link to='/DiseñoWeb'   className=' especialidades2'><Enlaces text={'Diseño Web'} /></Link>
+                    <Link to='/SEO'  className='especialidades2 ' ><Enlaces text={'Seo'} /></Link>
+                    <Link to='/Copywriting'  className='especialidades2 ' ><Enlaces text={'Copywriting'} /></Link>
+                    <Link to='/EmailMarketing'  className='especialidades2 ' ><Enlaces text={'Email Marketing'} /></Link>
+                    <Link to='/ADS'  className='especialidades2 ' ><Enlaces text={'ADS'} /></Link>
+                    <Link to='/RedesSociales'  className='especialidades2 ' ><Enlaces text={'Redes Sociales'} /></Link>
                 </div>
                 <div className='contenedorespecialidades3'>
                     <h2 >Otros Servicios</h2>
-                    <p className='especialidades3 text-blanco p-1 hover:text-azul' target='top'>Plan 360</p>
+                    <p className='especialidades3 text-blanco p-1 hover:text-azul' >Plan 360</p>
                     <p className='especialidades3 ' >Consultoria</p>
                     <p className='especialidades3 '>Formacion</p>
                     <p className='especialidades3 '>Comunicacion</p>
@@ -51,13 +51,13 @@ export default function Footer() {
             <div className='contenedoravisos flex bg-verde justify-between'>
 
                 <div className="contenedorprivacidad flex bg-verde text-blanco justify-start  pb-5 gap-2 ">
-                    <Link to='/Privacidad' target='_top'><p className='privacidadtexto ' target='top'>Privacidad</p></Link>
+                    <Link to='/Privacidad' ><p className='privacidadtexto ' target='top'>Privacidad</p></Link>
                     <div className='privacidaddiv  '></div>
-                    <Link to='/Aviso' target='_top'><p className='privacidadtexto ' target='top'>Aviso Legal</p> </Link>
+                    <Link to='/Aviso' ><p className='privacidadtexto ' target='top'>Aviso Legal</p> </Link>
                     <div className='privacidaddiv'></div>
-                    <Link to='/Cookies' target='_top'> <p className='privacidadtexto ' >Cookies</p></Link>
+                    <Link to='/Cookies' > <p className='privacidadtexto ' >Cookies</p></Link>
                     <div className='privacidaddiv'></div>
-                    <Link to={'/Contact'} target='_top'><p className='privacidadtexto' >Contacto</p> </Link>
+                    <Link to={'/Contact'} ><p className='privacidadtexto' >Contacto</p> </Link>
 
                     {/* <p className='privacidadtexto ' target='top'>Acerca de</p>
                     <div className='privacidaddiv'></div> */}
