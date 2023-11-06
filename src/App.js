@@ -19,8 +19,8 @@ import AboutUs from './Pages/AboutUs';
 import Aviso from './Pages/Aviso';
 import Privacidad from './Pages/Privacidad';
 import Cookies from './Pages/Cookies';
-import Footer from './components/Footer/Footer';
-import ScrollToTop from './components/ScrollToTop';
+
+
 
 
 
@@ -33,23 +33,23 @@ function App() {
      
       <Routes>
         <Route path='/' element={< Home />} />
-        <Route path='/Medicos' element={<Medicos />} />
-        <Route path='/Psicologos' element={< Psicologos />} />
-        <Route path='/Fisios' element={< Fisios />} />
-        <Route path='/Dentistas' element={<Dentistas />} />
-        <Route path='/Nutricionistas' element={<Nutricionistas />} />
-        <Route path='/Entrenadores' element={<Entrenadores />} />
-        <Route path='/DiseñoWeb' element={<DiseñoWeb />} />
-        <Route path='/Ads' element={<Ads />} />
-        <Route path='/CopyWriting' element={<CopyWriting />} />
-        <Route path='/EmailMarketing' element={<EmailMarketing />} />
-        <Route path='/RedesSociales' element={<RedesSociales />} />
-        <Route path='/SEO' element={<Seo />} />
-        <Route path='/Contact' element={< Contact />} />
-        <Route path='/AboutUs' element={< AboutUs />} />
-        <Route path='/Aviso' element={< Aviso />} />
-        <Route path='/Privacidad' element={< Privacidad />} />
-        <Route path='/Cookies' element={<Cookies />} />
+        <Route path='/Medicos/' element={<Medicos />} />
+        <Route path='/Psicologos/' element={< Psicologos />} />
+        <Route path='/Fisios/' element={< Fisios />} />
+        <Route path='/Dentistas/' element={<Dentistas />} />
+        <Route path='/Nutricionistas/' element={<Nutricionistas />} />
+        <Route path='/Entrenadores/' element={<Entrenadores />} />
+        <Route path='/DiseñoWeb/' element={<DiseñoWeb />} />
+        <Route path='/Ads/' element={<Ads />} />
+        <Route path='/CopyWriting/' element={<CopyWriting />} />
+        <Route path='/EmailMarketing/' element={<EmailMarketing />} />
+        <Route path='/RedesSociales7' element={<RedesSociales />} />
+        <Route path='/SEO/' element={<Seo />} />
+        <Route path='/Contact/' element={< Contact />} />
+        <Route path='/AboutUs/' element={< AboutUs />} />
+        <Route path='/Aviso/' element={< Aviso />} />
+        <Route path='/Privacidad/' element={< Privacidad />} />
+        <Route path='/Cookies/' element={<Cookies />} />
       </Routes>
 
     </BrowserRouter>
