@@ -220,11 +220,23 @@
 
 }
 
+/* 
+@media  screen and (max-width:390){
+.contenedorem {
+    justify-content: center
+}
+}; */
+
+
+
 @media screen and (max-width:480px) {
 
     .contenedorads {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorads h2 {
@@ -241,6 +253,9 @@
     .contenedorcopy {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorcopy h2 {
@@ -256,6 +271,9 @@
     .contenedorde {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorde h2 {
@@ -271,6 +289,9 @@
     .contenedordw {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedordw h2 {
@@ -286,6 +307,10 @@
     .contenedorem {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
     }
 
     .contenedorem h2 {
@@ -302,6 +327,9 @@
     .contenedorent {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorent h2 {
@@ -317,6 +345,9 @@
     .contenedorfi {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorfi h2 {
@@ -332,6 +363,9 @@
     .contenedorme {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorme h2 {
@@ -354,6 +388,9 @@
         font-size: 1.5em;
         width: 20rem;
         margin-top: 3.5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
     }
 
@@ -364,6 +401,9 @@
     .contenedorpsi {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorpsi h2 {
@@ -381,7 +421,9 @@
     .contenedorRs {
         max-width: 30rem;
         max-height: 100%;
-
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorRs h2 {
@@ -398,6 +440,9 @@
     .contenedorseo {
         max-width: 30rem;
         max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .contenedorseo h2 {
