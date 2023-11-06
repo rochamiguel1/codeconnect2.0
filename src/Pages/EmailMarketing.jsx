@@ -5,11 +5,13 @@ import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixStrategy from '../components/Strategy/MixStrategy'
 import Footer from '../components/Footer/Footer'
 import MixEm from '../components/MixAgency/MixEm'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function EmailMarketing() {
   return (
     <div>
-       <Header />
+      <ScrollToTop />
+      <Header />
       <MixEm text1={'Agencia especializada en Email Marketing para clínicas y profesionales de la salud'}
         text2={'Logra que tus pacientes actuales y potenciales te tengan en mente cuando necesiten asistencia sanitaria como la que ofreces'}
       />

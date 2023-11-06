@@ -1,10 +1,13 @@
 import React from 'react'
+import ScrollToTop from '../components/ScrollToTop'
 import Header from '../components/Header/Header'
+
 
 export default function Aviso() {
     return (
         <div>
-            <Header />
+            <ScrollToTop/>
+            <Header/>
             <h1 className='flex font-bold justify-center pt-5 text-4xl'>AVISO LEGAL </h1>
             <h3 className='font-semibold text-2xl pt-10 pl-4'>1. Información general</h3>
             <p className=' text-lg ml-4 '>El presente aviso legal regula el uso del sitio web CodeConnect.es (en adelante, LA WEB).

@@ -4,10 +4,14 @@ import MixMe from '../components/MixAgency/MixMe'
 import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixStrategy from '../components/Strategy/MixStrategy'
 import Footer from '../components/Footer/Footer'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Medicos() {
   return (
     <div>
+      
+      <ScrollToTop/>
+
       <Header/>
       <MixMe text1={'Agencia de Marketing Médico'}
         text2={'Especialistas en marketing para clínicas y consultas privadas'}
@@ -24,7 +28,9 @@ export default function Medicos() {
       />
       <MixStrategy/>
       <Footer/>
+     
 
     </div>
   )
 }
+

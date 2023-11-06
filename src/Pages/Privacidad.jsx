@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from '../components/Header/Header'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Privacidad() {
   return (
     <div>
+      <ScrollToTop />
       <Header />
       <h1 className='flex font-bold justify-center pt-5 text-4xl'>Política de Privacidad</h1>
       <p className=' text-lg ml-4 pt-5 ' > A continuación se indica la Política de Privacidad seguida por Code Connect, cuyo sitio web es codeconnect.es (en adelante, LA WEB).</p>

@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from '../components/Header/Header'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Cookies() {
     return (
         <div>
+            <ScrollToTop />
             < Header />
 
             <h1 className='flex font-bold justify-center pt-5 text-4xl'>POLÍTICA DE COOKIES</h1>

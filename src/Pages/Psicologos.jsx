@@ -4,12 +4,14 @@ import Footer from '../components/Footer/Footer'
 import MixStrategy from '../components/Strategy/MixStrategy'
 import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixPsi from '../components/MixAgency/MixPsi'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Psicologos() {
   return (
     <div>
-        <Header />
-        <MixPsi text1={'Agencia de Marketing para Psicólogos'}
+      <ScrollToTop />
+      <Header />
+      <MixPsi text1={'Agencia de Marketing para Psicólogos'}
         text2={'Consigue más pacientes con estrategias rentables y escalables adaptadas a tu contexto'}
       />
       <ApropiateWeb2
@@ -22,8 +24,8 @@ export default function Psicologos() {
         point5={'Puedes aprovechar mejor el impulso de los seguros privados y minimizar tu dependencia de ellos'}
         point6={'Trabajar adecuadamente la comunicación y el marketing favorece una mejor asistencia'}
       />
-      <MixStrategy/>
-        <Footer />
+      <MixStrategy />
+      <Footer />
 
     </div>
   )

@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from '../components/Header/Header'
-import MixSeo from '../components/MixAgency/MixSeo'
 import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixStrategy from '../components/Strategy/MixStrategy'
 import Footer from '../components/Footer/Footer'
 import MixCopy from '../components/MixAgency/MixCopy'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function CopyWriting() {
   return (
     <div>
+      <ScrollToTop />
       <Header />
       <MixCopy text1={'Agencia especializada en copywriting y redacción de contenidos de salud'}
         text2={'Divulga salud y consigue más pacientes'}

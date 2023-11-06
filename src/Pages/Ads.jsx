@@ -5,10 +5,13 @@ import Footer from '../components/Footer/Footer'
 import MixDw from '../components/MixAgency/MixDw'
 import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixAds from '../components/MixAgency/MixAds'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Ads() {
   return (
     <>
+
+    <ScrollToTop/>
       <Header />
 
       <MixAds text1={'Agencia especializada en Facebook y Google Ads para profesionales sanitarios'}

@@ -4,10 +4,12 @@ import MixEnt from '../components/MixAgency/MixEnt'
 import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixStrategy from '../components/Strategy/MixStrategy'
 import Footer from '../components/Footer/Footer'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Entrenadores() {
   return (
     <div>
+      <ScrollToTop />
       < Header />
       <MixEnt text1={'Agencia de Marketing para Dentistas'}
         text2={'Especialistas en marketing para clínicas y consultas privadas'}
@@ -22,8 +24,8 @@ export default function Entrenadores() {
         point5={'Nos adaptamos a tu contexto'}
         point6={'Ofrece una mejor asistencia'}
       />
-      <MixStrategy/>
-      <Footer/>
+      <MixStrategy />
+      <Footer />
     </div>
   )
 }

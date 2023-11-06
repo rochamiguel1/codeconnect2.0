@@ -20,12 +20,17 @@ import Aviso from './Pages/Aviso';
 import Privacidad from './Pages/Privacidad';
 import Cookies from './Pages/Cookies';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
+
+
+
+
 
 
 function App() {
   return (
     < BrowserRouter>
-
+     
       <Routes>
         <Route path='/' element={< Home />} />
         <Route path='/Medicos' element={<Medicos />} />
@@ -52,3 +57,6 @@ function App() {
 }
 
 export default App;
+
+
+

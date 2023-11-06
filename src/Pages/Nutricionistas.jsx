@@ -4,13 +4,15 @@ import MixNu from '../components/MixAgency/MixNu'
 import ApropiateWeb2 from '../components/ApropiateWeb/ApropiateWeb2'
 import MixStrategy from '../components/Strategy/MixStrategy'
 import Footer from '../components/Footer/Footer'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function Nutricionistas() {
   return (
     <div>
+      <ScrollToTop />
       <Header />
       <MixNu text1={'Agencia de Marketing para Nutricionistas'}
-      text2={'Desarrollamos planes rentables adaptados al contexto de tu clínica'}
+        text2={'Desarrollamos planes rentables adaptados al contexto de tu clínica'}
       />
       <ApropiateWeb2
         text1={'Impulsa a tu centro de fisioterapia'}
@@ -22,8 +24,8 @@ export default function Nutricionistas() {
         point5={'Reduce tu dependencia de los seguros privados y aprovecha mejor su impulso si trabajas con ellos'}
         point6={'Ofrece una mejor asistencia'}
       />
-      <MixStrategy/>
-      <Footer/>
+      <MixStrategy />
+      <Footer />
     </div>
   )
 }
