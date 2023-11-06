@@ -13,8 +13,12 @@
     color: #ffffff;
     padding-left: 5rem;
     gap: 10rem;
-
 }
+
+.medicos:hover {
+    color: #71C648;
+}
+
 
 .linea1 {
     font-size: 2.15em;
@@ -57,11 +61,12 @@
 @media screen and (max-width:480px) {
 
     .contenedorstrategy {
-        
+
         padding-left: 2rem;
-        gap: 4rem;
-    
+        gap: 1.8rem;
+
     }
+
     .linea1 {
         font-size: 1.3em;
         line-height: 2.5rem;
@@ -91,6 +96,7 @@
         gap: 0.5rem;
     }
 
+
     .grupo2 {
         flex-direction: column;
         font-size: 0.9em;
@@ -105,10 +111,11 @@
     .linea1 {
         font-size: 1.6em;
     }
+
     .linea2 {
         font-size: 1em;
     }
-    
+
     /* .contenedortexto button {
         height: 3rem;
         width: 8.5rem;
@@ -116,5 +123,5 @@
         line-height: 0.8rem;
     } */
 
-    
+
 }

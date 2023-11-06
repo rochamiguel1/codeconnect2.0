@@ -14,14 +14,14 @@ export default function Strategy() {
             </div>
             <div className=' contenedortexto '>
                 <div className='grupo1     '>
-                    <Link to='/Medicos' > <Enlaces text={'Medicos'} /> </Link>
-                    <Link to='/Fisios' ><Enlaces text={'Fisios'} /> </Link>
-                    <Link to='/Nutricionistas' ><Enlaces text={'Nutricionistas'} /> </Link>
+                    <Link to='/Medicos' className='medicos'> <Enlaces text={'Medicos'} /> </Link>
+                    <Link to='/Fisios' className='medicos' ><Enlaces text={'Fisios'} /> </Link>
+                    <Link to='/Nutricionistas' className='medicos' ><Enlaces text={'Nutricionistas'} /> </Link>
                 </div>
                 <div className='grupo2 '>
-                    <Link to='/Psicologos' ><Enlaces text={'Psicologos'} /> </Link>
-                    <Link to='/Dentistas' > <Enlaces text={'Dentistas'} /> </Link>
-                    <Link to='/Entrenadores' ><Enlaces text={'Entrenadores'} /> </Link>
+                    <Link to='/Psicologos' className='medicos'><Enlaces text={'Psicologos'} /> </Link>
+                    <Link to='/Dentistas' className='medicos'> <Enlaces text={'Dentistas'} /> </Link>
+                    <Link to='/Entrenadores' className='medicos'><Enlaces text={'Entrenadores'} /> </Link>
                 </div>
             </div>
 

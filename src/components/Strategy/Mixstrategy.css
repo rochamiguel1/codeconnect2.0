@@ -55,6 +55,9 @@
     font-weight: 700;
     gap: 1rem;
 }
+.diseño:hover{
+    color: #71C648;
+}
 
 /* .mstra3 {
     gap: 1rem;

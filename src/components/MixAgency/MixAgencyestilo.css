@@ -62,7 +62,7 @@
     padding: 4rem;
     gap: 1rem;
     height: 32rem;
-    
+
 }
 
 
@@ -237,15 +237,18 @@
     .contenedorads p {
         font-size: 0.75em;
     }
+
     .contenedorcopy {
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedorcopy h2 {
         font-size: 1.5em;
-        width: 25rem;  
-        margin-top: 3.5rem; 
+        width: 25rem;
+        margin-top: 3.5rem;
     }
+
     .contenedorcopy p {
         font-size: 0.75em;
     }
@@ -254,11 +257,13 @@
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedorde h2 {
         font-size: 1.5em;
         width: 24rem;
         margin-top: 3.5rem;
     }
+
     .contenedorde p {
         font-size: 0.75em;
     }
@@ -267,11 +272,13 @@
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedordw h2 {
         font-size: 1.5em;
         width: 24rem;
         margin-top: 3.5rem;
     }
+
     .contenedordw p {
         font-size: 0.75em;
     }
@@ -280,12 +287,14 @@
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedorem h2 {
         font-size: 1.5em;
         width: 24rem;
         margin-top: 3.5rem;
-        
+
     }
+
     .contenedorem p {
         font-size: 0.75em;
     }
@@ -294,23 +303,28 @@
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedorent h2 {
         font-size: 1.5em;
         margin-top: 3rem;
         width: 24rem;
     }
+
     .contenedorent p {
         font-size: 0.75em;
     }
+
     .contenedorfi {
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedorfi h2 {
         font-size: 1.5em;
         margin-top: 3.5rem;
         width: 24rem;
     }
+
     .contenedorfi p {
         font-size: 0.75em;
     }
@@ -322,9 +336,11 @@
 
     .contenedorme h2 {
         font-size: 1.5em;
-        color: #71C648;
         margin-top: 3.5rem;
+        width: 24rem;
+
     }
+
     .contenedorme p {
         font-size: 0.75em;
     }
@@ -333,26 +349,30 @@
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedornu h2 {
         font-size: 1.5em;
         width: 20rem;
         margin-top: 3.5rem;
-        
+
     }
+
     .contenedornu p {
         font-size: 0.75em;
     }
 
     .contenedorpsi {
         max-width: 30rem;
-        max-height: 100%;  
+        max-height: 100%;
     }
+
     .contenedorpsi h2 {
         font-size: 1.5em;
         width: 20rem;
         margin-top: 3.5rem;
-        
+
     }
+
     .contenedorpsi p {
         font-size: 0.75em;
     }
@@ -361,14 +381,16 @@
     .contenedorRs {
         max-width: 30rem;
         max-height: 100%;
-        
+
     }
+
     .contenedorRs h2 {
         font-size: 1.5em;
         width: 20rem;
         margin-top: 3.5rem;
-        
+
     }
+
     .contenedorRs p {
         font-size: 0.75em;
     }
@@ -377,11 +399,13 @@
         max-width: 30rem;
         max-height: 100%;
     }
+
     .contenedorseo h2 {
         font-size: 1.5em;
         width: 24rem;
         margin-top: 3.5rem;
     }
+
     .contenedorseo p {
         font-size: 0.75em;
     }
