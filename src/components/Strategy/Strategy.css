@@ -11,7 +11,8 @@
     align-items: center;
     height: 15.625rem;
     color: #ffffff;
-    padding-left: 3rem;
+    padding-left: 5rem;
+    gap: 10rem;
 
 }
 
@@ -55,6 +56,12 @@
 
 @media screen and (max-width:480px) {
 
+    .contenedorstrategy {
+        
+        padding-left: 2rem;
+        gap: 4rem;
+    
+    }
     .linea1 {
         font-size: 1.3em;
         line-height: 2.5rem;
