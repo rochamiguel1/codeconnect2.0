@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function MixMe({text1,text2}) {
     return (
-        <div className="contenedorme flex flex-col p-16  " id='MixMe'>
+        <div className="contenedorme flex flex-col p-16  " >
             <h2 className=' justify-start pt-12 w-[700px]  text-5xl text-verde font-semibold' >{text1} </h2>
             <p className='  text-base pt-4 font-semibold text-verde'> {text2}</p>
 

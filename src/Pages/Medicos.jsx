@@ -13,7 +13,7 @@ export default function Medicos() {
       <ScrollToTop/>
 
       <Header/>
-      <MixMe text1={'Agencia de Marketing Médico'}
+      <MixMe text1={'Agencia de Marketing para Medicos'}
         text2={'Especialistas en marketing para clínicas y consultas privadas'}
       />
       <ApropiateWeb2
