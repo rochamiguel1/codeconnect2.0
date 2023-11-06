@@ -15,6 +15,7 @@
     gap: 10rem;
 }
 
+.medicos{color: #ffffff;}
 .medicos:hover {
     color: #71C648;
 }
@@ -63,10 +64,10 @@
     .contenedorstrategy {
 
         padding-left: 2rem;
-        gap: 1.8rem;
+        gap: .0313rem;
 
     }
-
+    
     .linea1 {
         font-size: 1.3em;
         line-height: 2.5rem;
@@ -85,6 +86,7 @@
         width: 7.875rem;
         font-size: 0.75em;
         line-height: 0.8rem;
+    
     }
 
     .grupo1 {
