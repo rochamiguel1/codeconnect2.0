@@ -182,25 +182,29 @@
         height: 1.7rem;
         width: 15.6875rem;
     }
+
+    .contenedormaneras{
+        display: flex;
+        line-height: 1.25rem;
+    }
     .contenedorwhatsapp {
-        height: 7.3125rem;
-        width: 10.6875rem;
+        height: 5.3125rem;
+        width: 7.6875rem;
         gap: 1rem;
         background-color: #E9E9E9;
     }
 
     .contenedorwhatsapp h3 {
-        font-size: 1em;
+        font-size: 0.8em;
         line-height: 1.75rem;
-
     }
     .contenedorwhatsapp p {
-        font-size: 0.9em;
+        font-size: 0.8em;
         line-height: 1.75rem;
     }
 
     .contenedorwhatsapp h4 {
-        font-size: 0.9em;
+        font-size: 0.8em;
         line-height: 1.75rem;
     }
 }
