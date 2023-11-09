@@ -18,7 +18,7 @@ import Contact from './Pages/Contact';
 import Aviso from './Pages/Aviso';
 import Privacidad from './Pages/Privacidad';
 import Cookies from './Pages/Cookies';
-import About from './Pages/about';
+import About from './Pages/About';
 
 
 
