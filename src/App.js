@@ -15,10 +15,11 @@ import EmailMarketing from './Pages/EmailMarketing';
 import RedesSociales from './Pages/RedesSociales';
 import Seo from './Pages/Seo';
 import Contact from './Pages/Contact';
-import AboutUs from './Pages/AboutUs';
 import Aviso from './Pages/Aviso';
 import Privacidad from './Pages/Privacidad';
 import Cookies from './Pages/Cookies';
+import About from './Pages/about';
+
 
 
 
@@ -43,12 +44,12 @@ function App() {
         <Route path='/CopyWriting' element={<CopyWriting />} />
         <Route path='/EmailMarketing' element={<EmailMarketing />} />
         <Route path='/RedesSociales' element={<RedesSociales />} />
-        <Route path='/SEO' element={<Seo />} />
+        <Route path='/Seo' element={<Seo />} />
         <Route path='/Contact' element={< Contact />} />
-        <Route path='/AboutUs' element={< AboutUs />} />
+        <Route path='/About' element={ < About />} />
         <Route path='/Psicologos' element={< Psicologos />} />
         <Route path='/Aviso' element={< Aviso />} />
-        <Route path='Privacidad' element={< Privacidad />} />
+        <Route path='/Privacidad' element={< Privacidad />} />
         <Route path='/Cookies' element={<Cookies />} />
       </Routes>
 

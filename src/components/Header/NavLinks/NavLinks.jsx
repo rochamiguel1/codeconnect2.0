@@ -5,7 +5,7 @@ import '../Header.css'
 
 export default function NavLinks() {
   return (
-    <div className=' contenedornavlinks flex gap-x-7  text-sm   text-blanco  font-medium'>
+    <div className=' contenedornavlinks'>
         <Link to={'/'} > <p>INICIO</p> </Link> 
         {/* <p>SERVICIOS</p> */}
         <Link to={'/Contact'} ><p>CONTACTO</p> </Link>  
