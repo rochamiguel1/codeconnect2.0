@@ -18,7 +18,8 @@ import Contact from './Pages/Contact';
 import Aviso from './Pages/Aviso';
 import Privacidad from './Pages/Privacidad';
 import Cookies from './Pages/Cookies';
-import About from './Pages/About';
+
+
 
 
 
@@ -46,7 +47,7 @@ function App() {
         <Route path='/RedesSociales' element={<RedesSociales />} />
         <Route path='/Seo' element={<Seo />} />
         <Route path='/Contact' element={< Contact />} />
-        <Route path='/About' element={ < About />} />
+       
         <Route path='/Psicologos' element={< Psicologos />} />
         <Route path='/Aviso' element={< Aviso />} />
         <Route path='/Privacidad' element={< Privacidad />} />
