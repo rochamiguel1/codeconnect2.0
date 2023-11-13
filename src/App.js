@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
 import Dentistas from './Pages/Dentistas';
 import Entrenadores from './Pages/Entrenadores';
 import Fisios from './Pages/Fisios';
@@ -31,7 +31,7 @@ import Cookies from './Pages/Cookies';
 
 function App() {
   return (
-    < BrowserRouter>
+    <HashRouter HashRouter>
      
       <Routes>
         <Route path='/' element={< Home />} />
@@ -54,7 +54,7 @@ function App() {
         <Route path='/Cookies' element={<Cookies />} />
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

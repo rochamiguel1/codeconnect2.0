@@ -3,8 +3,14 @@ import { Link } from 'react-router-dom'
 import lf from '../../assets/2.svg'
 import ws from '../../assets/whatsapp.png'
 import int from '../../assets/instagram.png'
+import lkd from '../../assets/linkedin.png'
 import '../Footer/Footer.css'
 import Enlaces from '../Strategy/Enlaces'
+import lk from '../../assets/lknegro.png'
+import bla from '../../assets/instagramblack.png'
+import wn from '../../assets/whatsappblack.png'
+
+
 
 
 export default function Footer() {
@@ -63,8 +69,10 @@ export default function Footer() {
                     <div className='privacidaddiv'></div> */}
                 </div>
                 <div className='contenedorredes '>
-                    <Link to='https://wa.me/34633261963'><img src={ws} alt="whatsapp" /></Link>
-                    <Link to='https://www.instagram.com/codeconnectsl/'><img src={int} alt="Instagram" /></Link>
+                    <Link to='https://wa.me/34633261963'><img src={wn} alt="whatsapp" /></Link>
+                    <Link to='https://www.instagram.com/codeconnectsl/'><img src={bla} alt="Instagram" /></Link>
+                    <Link to='https://www.linkedin.com/company/codeconnectsl/'><img src={lk} alt="linkedin" /></Link>
+                    
                 </div>
             </div>
 
