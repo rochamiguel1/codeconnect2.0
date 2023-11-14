@@ -12,7 +12,7 @@ export default function Entrenadores() {
       <ScrollToTop />
       < Header />
       <MixEnt text1={'Agencia de Marketing para Entrenadores'}
-        text2={'Especialistas en marketing para clínicas y consultas privadas'}
+        text2={'Especialistas en marketing para entrenadores personales y consultas privadas'}
       />
       <ApropiateWeb2
         text1={'La consulta o clinica dental que deseas es posible'}

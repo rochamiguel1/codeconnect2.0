@@ -109,7 +109,7 @@
     padding: 1rem;
     height: 36.25rem;
     background-color: #E9E9E9;
-    
+
 }
 
 .formulario {
@@ -117,15 +117,16 @@
     flex-direction: column;
     gap: 0.65rem;
     color: #000;
-   
+
 }
 
 .formularioetiqueta {
     border-width: .0625rem;
     border-radius: 0.25rem;
     height: 2.9375rem;
-    width: 21.6875rem;   
+    width: 21.6875rem;
 }
+
 .formulariotexto {
     border-width: .0625rem;
     border-radius: 0.25rem;
@@ -134,11 +135,11 @@
 .autorizar {
     display: flex;
     justify-content: flex-start;
-    text-align:start;
+    text-align: start;
     max-width: 29.375rem;
     gap: 0.25rem;
     color: #000;
-    
+
 }
 
 .botonenviar {
@@ -162,9 +163,11 @@
     .contactoazul {
         font-size: 2em;
     }
+
     .contenedortexto24 {
         display: none;
     }
+
     .contenedorformulario {
         bottom: 3.5rem;
         border-width: 2px;
@@ -174,19 +177,22 @@
         height: 32.5rem;
         width: 20.8125rem;
     }
+
     .formulario {
         gap: 0.1.1rem;
         color: #000;
     }
+
     .formularioetiqueta {
         height: 1.7rem;
         width: 15.6875rem;
     }
 
-    .contenedormaneras{
+    .contenedormaneras {
         display: flex;
         line-height: 1.25rem;
     }
+
     .contenedorwhatsapp {
         height: 5.3125rem;
         width: 7.6875rem;
@@ -198,8 +204,9 @@
         font-size: 0.8em;
         line-height: 1.75rem;
     }
+
     .contenedorwhatsapp p {
-        font-size: 0.8em;
+        font-size: 0.7em;
         line-height: 1.75rem;
     }
 
@@ -207,4 +214,192 @@
         font-size: 0.8em;
         line-height: 1.75rem;
     }
+}
+
+/* @media only screen and (orientation: landscape) {
+
+    .contenedorwhatsapp {
+        height: 5.3125rem;
+        width: 10rem;
+        gap: 1rem;
+        background-color: #E9E9E9;
+    }
+
+    .contenedorwhatsapp h3 {
+        font-size: 0.6em;
+        line-height: 1.75rem;
+    }
+
+    .contenedorwhatsapp h4 {
+        font-size: 0.6em;
+        line-height: 1.75rem;
+    }
+
+    .contenedorwhatsapp p {
+        font-size: 0.6em;
+        line-height: 1.75rem;
+    }
+
+
+    .contenedortexto24 h1 {
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 2rem;
+        justify-content: center;
+    }
+
+    .contenedorpreferencias {
+        margin-left: 0.5em;
+        gap: 0.8rem;
+    }
+
+    .preferencias {
+        margin-top: 1em;
+        width: auto;
+    }
+
+    .preferencias h2 {
+        width: auto;
+        font-size: 1em;
+       
+    }
+
+    .preferencias h3 {
+        font-size: 0.8em;
+        width: auto;
+
+    }
+
+    .contenedorformulario {
+        bottom: 3.5rem;
+        border-width: 2px;
+        padding: 1rem;
+        border-color: #5A6D6D;
+        background-color: #E9E9E9;
+        height: 32.5rem;
+        width: 20.8125rem;
+        margin-right: 1em;
+    }
+
+    .formulario {
+        gap: 0.1.1rem;
+        color: #000;
+    }
+
+    .formularioetiqueta {
+        height: 1.7rem;
+        width: 15.6875rem;
+    }
+
+} */
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .contenedorwhatsapp {
+        margin: 0.2em;
+    }
+
+    .contenedorwhatsapp h3 {
+        font-size: 1em;
+    }
+
+    .contenedorwhatsapp h4 {
+        font-size: 1em;
+
+    }
+
+    .contenedorwhatsapp p {
+        font-size: 1em;
+    }
+
+    .contenedortexto24 h1 {
+        width: auto;
+        font-size: 1.5em;
+        line-height: 2rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contenedorpreferencias {
+        margin-left: 0.5em;
+        gap: 0.8rem;
+    }
+
+    .preferencias {
+        margin-top: 1em;
+        width: auto;
+    }
+
+    .preferencias h2 {
+        width: auto;
+        font-size: 1em;
+        line-height: 1.5rem;
+    }
+
+    .preferencias h3 {
+        font-size: 0.8em;
+        width: auto;
+
+    }
+
+    .contenedorformulario {
+        display: flex;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+
+    .contenedorwhatsapp {
+        margin: 0.5em;
+    }
+
+    .contenedorwhatsapp h3 {
+        font-size: 1.2em;
+    }
+
+    .contenedorwhatsapp h4 {
+        font-size: 1em;
+    }
+
+    .contenedorwhatsapp p {
+        font-size: 1em;
+    }
+
+    .contenedortexto24 h1 {
+        font-size: 1.675em;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        margin-left: 0.4em;
+    }
+
+    .contenedorpreferencias {
+        width: auto;
+        margin-left: 0.5em;
+        gap: 1.5rem;
+    }
+
+    .preferencias {
+        width: auto;
+    }
+
+    .preferencias h2 {
+        width: auto;
+        font-size: 1.25em;
+
+    }
+
+    .preferencias h3 {
+        font-size: 1em;
+        width: auto;
+    }
+
+    .contenedorformulario {
+        display: flex;
+        width: auto;
+        margin-right: 1em;
+    }
+
+
 }

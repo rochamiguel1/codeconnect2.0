@@ -5,7 +5,7 @@
 
 .contenedorfooter {
     display: flex;
-    background: #71C648;
+    background: #ffffff;
     color: #194973;
     justify-content: space-around;
     padding: 2.5rem;
@@ -49,24 +49,24 @@
 }
 
 .especialidades1 {
-    color: #ffffff;
+    color:#194973;
     padding: 0.25rem;
 }
 
 .especialidades1:hover {
-    color: #194973;
+    color: #71C648;
 }
 
 .especialidades2 {
-    color: #ffffff;
+    color: #194973;
     padding: 0.25rem;
 }
 
 .especialidades2:hover {
-    color: #194973;
+    color: #71C648;
 }
 .especialidades3 {
-    color: #ffffff;
+    color: #194973;
     padding: 0.25rem;
 }
 .especialidades3:hover {
@@ -88,20 +88,20 @@
     font-size: 1em;
     position: relative;
     bottom: 2.5rem;
-    color: #ffffff;
+    color: #194973;
 }
 
 
 .contenedoravisos {
     display: flex;
-    background: #71C648;
+    background: #ffffff;
     justify-content: space-between;
 }
 
 .contenedorprivacidad {
     display: flex;
-    background: #71C648;
-    color: #ffffff;
+    background: #ffffff;
+    color: #194973;
     justify-content: flex-start;
     padding-left: 7rem;
     padding-bottom: 1.25rem;
@@ -110,13 +110,13 @@
 
 
 .privacidadtexto:hover {
-    color: #194973;
+    color: #71C648;
 }
 
 .privacidaddiv {
-    background: #ffffff;
+    background: #194973;
     height: 1.25rem;
-    width: .125rem
+    width: .120rem
 }
 
 
@@ -133,11 +133,11 @@
 
 .contenedorderechos {
     display: flex;
-    background: #71C648;
+    background: #ffffff;
     justify-content: center;
     align-items: center;
     height: 4rem;
-    color: #ffffff;
+    color: #000000;
 }
 
 @media screen and (max-width:480px) {

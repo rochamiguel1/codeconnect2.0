@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import lf from '../../assets/2.svg'
+import lfb from '../../assets/1.jpg'
 import ws from '../../assets/whatsapp.png'
 import int from '../../assets/instagram.png'
 import lkd from '../../assets/linkedin.png'
@@ -49,7 +50,7 @@ export default function Footer() {
                 </div>
 
                 <div className='contenedorlogo'>
-                    <Link to='/' target='_top'><img src={lf} alt="" /> </Link>
+                    <Link to='/' target='_top'><img src={lfb} alt="" /> </Link>
                     <p >Code Connect ayuda a clínicas y consultas privadas a ganar visibilidad y llegar a más pacientes.</p>
                 </div>
             </div>
@@ -58,7 +59,7 @@ export default function Footer() {
 
                 <div className="contenedorprivacidad">
                     <Link to='/Privacidad' ><p className='privacidadtexto '>Privacidad</p></Link>
-                    <div className='privacidaddiv  '></div>
+                    <div className='privacidaddiv'></div>
                     <Link to='/Aviso' ><p className='privacidadtexto '>Aviso Legal</p> </Link>
                     <div className='privacidaddiv'></div>
                     <Link to='/Cookies' > <p className='privacidadtexto ' >Cookies</p></Link>
