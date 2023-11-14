@@ -20,25 +20,25 @@ export default function Footer() {
 
             <div className='contenedorfooter'>
 
-                <div className='contenedorespecialidades1 '>
+                <div className='contenedorespecialidades1'>
                     <h2>Especialidades</h2>
-                    <Link to='/Medicos'  className='especialidades1 ' ><Enlaces text={'Medicos'} /></Link>
-                    <Link to='/Fisios'  className='especialidades1 ' ><Enlaces text={'Fisios'} /></Link>
-                    <Link to='/Psicologos'   className='especialidades1 ' ><Enlaces text={'Psicologos'} /></Link>
-                    <Link to='/Nutricionistas'  className='especialidades1 ' ><Enlaces text={'Nutricionistas'} /></Link>
-                    <Link to='/Dentistas'  className='especialidades1 '><Enlaces text={'Dentistas'} /></Link>
-                    <Link to='/Entrenadores'   className='especialidades1 ' ><Enlaces text={'Entrenadores'} /></Link>
+                    <Link to='/Medicos'  className='especialidades1 ' ><p>Medicos</p></Link>
+                    <Link to='/Fisios'  className='especialidades1 ' ><p>Fisios</p> </Link>
+                    <Link to='/Psicologos'   className='especialidades1 ' ><p>Psicologos</p></Link>
+                    <Link to='/Nutricionistas'  className='especialidades1 ' ><p>Nutricionistas</p></Link>
+                    <Link to='/Dentistas'  className='especialidades1 '><p>Dentistas</p> </Link>
+                    <Link to='/Entrenadores'   className='especialidades1 ' ><p>Entrenadores</p> </Link>
 
                 </div>
 
-                <div className='contenedorespecialidades2 '>
+                <div className='contenedorespecialidades2'>
                     <h2 >Marketing Digital</h2>
-                    <Link to='/DiseñoWeb'   className=' especialidades2'><Enlaces text={'Diseño Web'} /></Link>
-                    <Link to='/Seo'  className='especialidades2 ' ><Enlaces text={'Seo'} /></Link>
-                    <Link to='/Copywriting'  className='especialidades2 ' ><Enlaces text={'Copywriting'} /></Link>
-                    <Link to='/EmailMarketing'  className='especialidades2 ' ><Enlaces text={'Email Marketing'} /></Link>
-                    <Link to='/Ads'  className='especialidades2 ' ><Enlaces text={'Ads'} /></Link>
-                    <Link to='/RedesSociales'  className='especialidades2 ' ><Enlaces text={'Redes Sociales'} /></Link>
+                    <Link to='/DiseñoWeb'   className=' especialidades2'><p>Diseño Web</p></Link>
+                    <Link to='/Seo'  className='especialidades2 ' ><p>Seo</p></Link>
+                    <Link to='/Copywriting'  className='especialidades2 ' ><p>Copywriting</p> </Link>
+                    <Link to='/EmailMarketing'  className='especialidades2 ' ><p>Email Marketing</p> </Link>
+                    <Link to='/Ads'  className='especialidades2 ' ><p>Ads</p></Link>
+                    <Link to='/RedesSociales'  className='especialidades2 ' ><p>Redes Sociales</p> </Link>
                 </div>
                 <div className='contenedorespecialidades3'>
                     <h2 >Otros Servicios</h2>
@@ -50,7 +50,7 @@ export default function Footer() {
                 </div>
 
                 <div className='contenedorlogo'>
-                    <Link to='/' target='_top'><img src={lfb} alt="" /> </Link>
+                    <Link to='/'><img src={lfb} alt="" /> </Link>
                     <p >Code Connect ayuda a clínicas y consultas privadas a ganar visibilidad y llegar a más pacientes.</p>
                 </div>
             </div>

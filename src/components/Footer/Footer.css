@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 .contenedorfooter {
@@ -11,45 +11,56 @@
     padding: 2.5rem;
 }
 
-.contenedorespecialidades1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    line-height: 1.5rem;
-    padding-bottom: 1.25rem
-}
 .contenedorespecialidades1 h2 {
     font-size: 1.5em;
     line-height: 2rem;
-    padding-bottom: 1.25rem
+    padding-bottom: 1.25rem;
+    font-weight: 500;
 }
-.contenedorespecialidades2 {
+
+.especialidades1 {
     display: flex;
     flex-direction: column;
     font-size: 1em;
     line-height: 1.5rem;
     padding-bottom: 1.25rem
 }
+
+
+
 .contenedorespecialidades2 h2 {
     font-size: 1.5em;
     line-height: 2rem;
-    padding-bottom: 1.25rem
+    padding-bottom: 1.25rem;
+    font-weight: 500;
 }
-.contenedorespecialidades3 {
+
+.especialidades2 {
     display: flex;
     flex-direction: column;
     font-size: 1em;
     line-height: 1.5rem;
     padding-bottom: 1.25rem
 }
+
+
 .contenedorespecialidades3 h2 {
     font-size: 1.5em;
     line-height: 2rem;
+    padding-bottom: 1.25rem;
+    font-weight: 500;
+}
+
+.especialidades3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    line-height: 1.5rem;
     padding-bottom: 1.25rem
 }
 
 .especialidades1 {
-    color:#194973;
+    color: #194973;
     padding: 0.25rem;
 }
 
@@ -65,10 +76,12 @@
 .especialidades2:hover {
     color: #71C648;
 }
+
 .especialidades3 {
     color: #194973;
     padding: 0.25rem;
 }
+
 .especialidades3:hover {
     color: #194973;
 }
@@ -91,7 +104,6 @@
     color: #194973;
 }
 
-
 .contenedoravisos {
     display: flex;
     background: #ffffff;
@@ -107,7 +119,6 @@
     padding-bottom: 1.25rem;
     gap: 0.5rem
 }
-
 
 .privacidadtexto:hover {
     color: #71C648;
@@ -147,35 +158,37 @@
         padding: 2rem;
         gap: 16px;
     }
+
     .contenedorespecialidades1 {
-        font-size: 0.75em;
+        font-size: 0.7em;
         line-height: 0.75rem;
-        
+
     }
 
-   
-    .contenedorespecialidades1 h2{
-        margin-bottom: 1rem;
+    .contenedorespecialidades1 h2 {
+        margin-bottom: 1.8rem;
     }
 
     .contenedorespecialidades2 {
-        font-size: 0.75em;
+        font-size: 0.7em;
         line-height: 0.75rem;
-        
+
     }
-    
+
     .contenedorespecialidades3 {
-        font-size: 0.75em;
+        font-size: 0.7em;
         line-height: 0.75rem;
-        
+
     }
-   
+
     .contenedorlogo {
         display: none;
     }
+
     .contenedoravisos {
         gap: .3125rem;
     }
+
     .contenedorprivacidad {
         padding-left: .25rem;
         font-size: 0.75em;
@@ -183,10 +196,11 @@
     }
 
     .privacidaddiv {
-        background: #ffffff;
+        background: #194973;
         height: 1.25rem;
         width: .0625rem
     }
+
     .contenedorredes {
         margin-right: 1rem;
     }
@@ -202,28 +216,35 @@
     }
 }
 
-@media screen and (max-width:720px){
+@media screen and (min-width:481px) and (max-width:720px) {
 
     .contenedorfooter {
         justify-content: space-around;
         padding: 2rem;
-        gap: 16px;
+        gap: 14px;
+        width: auto;
     }
+
+
     .contenedorespecialidades1 {
         font-size: 0.75em;
         line-height: 0.75rem;
-        padding-bottom: 1.25rem
+        padding-bottom: 1.25rem;
     }
+
     .contenedorespecialidades1 h2 {
         font-size: 1.2em;
         line-height: 1rem;
         padding-bottom: 2rem
     }
+
     .contenedorespecialidades2 {
         font-size: 0.75em;
         line-height: 0.75rem;
-        padding-bottom: 1.25rem
+        padding-bottom: 1.25rem;
+
     }
+
     .contenedorespecialidades2 h2 {
         font-size: 1.2em;
         line-height: 1rem;
@@ -233,8 +254,10 @@
     .contenedorespecialidades3 {
         font-size: 0.75em;
         line-height: 0.75rem;
-        padding-bottom: 1.25rem
+        padding-bottom: 1.25rem;
+
     }
+
     .contenedorespecialidades3 h2 {
         font-size: 1.2em;
         line-height: 1rem;
@@ -244,49 +267,142 @@
 
     .contenedorlogo {
         position: relative;
-    
     }
-    
+
     .contenedorlogo img {
         height: 6rem;
         width: 6rem;
     }
-    
+
     .contenedorlogo p {
-        width: 18rem;
+        width: 10rem;
         font-size: 0.75em;
         position: relative;
         bottom: 2.5rem;
-        color: #ffffff;
+        color: #194973;
     }
-    
+
     .contenedoravisos {
         gap: .3125rem;
     }
+
     .contenedorprivacidad {
-        padding-left: .25rem;
+        padding-left: 1.5rem;
         font-size: 0.75em;
         gap: .125rem;
     }
 
     .privacidaddiv {
-        background: #ffffff;
+        background: #194973;
         height: 1.25rem;
         width: .0625rem
     }
+
     .contenedorredes {
         margin-right: 1rem;
     }
 
     .contenedorredes img {
-        height: 1.25rem;
-        width: 1.25rem;
+        height: 2rem;
+        width: 2rem;
+
     }
 
     .contenedorderechos {
         font-size: 0.75em;
         height: 2rem;
     }
+
+
 }
 
+@media screen and (min-width: 721px) and (max-width: 1024px) {
 
+    .contenedorfooter {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        gap: 14px;
+        width: auto;
+    }
+
+    .contenedorespecialidades1 {
+        font-size: 0.9em;
+        line-height: 0.75rem;
+        padding-bottom: 1.25rem
+
+    }
+
+    .contenedorespecialidades1 h2 {
+        font-size: 1.1em;
+        line-height: 1rem;
+        padding-bottom: 2.8rem;
+    }
+
+    .contenedorespecialidades2 {
+        
+        font-size: 0.9em;
+        line-height: 0.75rem;
+        padding-bottom: 1.25rem
+    }
+
+    .contenedorespecialidades2 h2 {
+        font-size: 1.1em;
+        line-height: 1rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .contenedorespecialidades3 {
+        font-size: 0.9em;
+        line-height: 0.75rem;
+        padding-bottom: 1.25rem
+    }
+
+    .contenedorespecialidades3 h2 {
+        font-size: 1.1em;
+        line-height: 1rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .contenedorlogo {
+        position: relative;
+    }
+
+    .contenedorlogo img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .contenedorlogo p {
+        width: 18rem;
+        font-size: 0.9em;
+        position: relative;
+        bottom: 2.5rem;
+        color: #194973;
+    }
+
+    .contenedoravisos {
+        display: flex;
+        gap: 12rem;
+    }
+
+    .contenedorprivacidad {
+        font-size: 0.9em;
+        padding-left: 2rem;
+    }
+
+
+    .contenedorredes {
+        margin: auto;
+    }
+
+    .contenedorredes img {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+
+
+}

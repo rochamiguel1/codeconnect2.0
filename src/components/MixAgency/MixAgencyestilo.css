@@ -232,8 +232,7 @@
 @media screen and (max-width:480px) {
 
     .contenedorads {
-        max-width: 30rem;
-        max-height: 100%;
+
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -251,8 +250,6 @@
     }
 
     .contenedorcopy {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -269,8 +266,6 @@
     }
 
     .contenedorde {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -287,8 +282,6 @@
     }
 
     .contenedordw {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -305,8 +298,6 @@
     }
 
     .contenedorem {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -325,8 +316,6 @@
     }
 
     .contenedorent {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -343,8 +332,6 @@
     }
 
     .contenedorfi {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -361,8 +348,6 @@
     }
 
     .contenedorme {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -372,7 +357,6 @@
         font-size: 1.5em;
         margin-top: 3.5rem;
         width: 24rem;
-
     }
 
     .contenedorme p {
@@ -380,8 +364,6 @@
     }
 
     .contenedornu {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -398,8 +380,6 @@
     }
 
     .contenedorpsi {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -416,10 +396,7 @@
         font-size: 0.75em;
     }
 
-
     .contenedorRs {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -437,8 +414,6 @@
     }
 
     .contenedorseo {
-        max-width: 30rem;
-        max-height: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -453,4 +428,407 @@
     .contenedorseo p {
         font-size: 0.75em;
     }
+}
+
+
+@media screen and (min-width:481px) and (max-width:720px) {
+
+    .contenedorads {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorads h2 {
+        align-items: start;
+        font-size: 1.8em;
+        width: 24rem;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorads p {
+        font-size: 0.9em;
+    }
+
+    .contenedorcopy {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorcopy h2 {
+        font-size: 1.8em;
+        width: 25rem;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorcopy p {
+        font-size: 0.9em;
+    }
+
+    .contenedorde {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorde h2 {
+        font-size: 1.8em;
+        width: 24rem;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorde p {
+        font-size: 0.9em;
+    }
+
+    .contenedordw {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedordw h2 {
+        font-size: 1.9em;
+        width: 24rem;
+        margin-top: 3.5rem;
+    }
+
+    .contenedordw p {
+        font-size: 0.8em;
+    }
+
+    .contenedorem {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .contenedorem h2 {
+        font-size: 1.8em;
+        width: 24rem;
+        margin-top: 3.5rem;
+
+    }
+
+    .contenedorem p {
+        font-size: 0.9em;
+    }
+
+    .contenedorent {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorent h2 {
+        font-size: 1.8em;
+        margin-top: 3rem;
+        width: 24rem;
+    }
+
+    .contenedorent p {
+        font-size: 0.9em;
+    }
+
+    .contenedorfi {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorfi h2 {
+        font-size: 1.8em;
+        margin-top: 3.5rem;
+        width: 24rem;
+    }
+
+    .contenedorfi p {
+        font-size: 0.9em;
+    }
+
+    .contenedorme {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorme h2 {
+        font-size: 1.8em;
+        margin-top: 3.5rem;
+        width: 24rem;
+
+    }
+
+    .contenedorme p {
+        font-size: 0.9em;
+    }
+
+    .contenedornu {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedornu h2 {
+        font-size: 1.8em;
+        width: 20rem;
+        margin-top: 3.5rem;
+    }
+
+    .contenedornu p {
+        font-size: 0.9em;
+    }
+
+    .contenedorpsi {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorpsi h2 {
+        font-size: 1.8em;
+        width: 20rem;
+        margin-top: 3.5rem;
+
+    }
+
+    .contenedorpsi p {
+        font-size: 0.9em;
+    }
+
+
+    .contenedorRs {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorRs h2 {
+        font-size: 1.8em;
+        width: 20rem;
+        margin-top: 3.5rem;
+
+    }
+
+    .contenedorRs p {
+        font-size: 0.9em;
+    }
+
+    .contenedorseo {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorseo h2 {
+        font-size: 1.8em;
+        width: 24rem;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorseo p {
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (min-width:721px) and (max-width:1024px) {
+
+    
+
+    .contenedorads {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorads h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorads p {
+        font-size: 1em;
+    }
+
+    .contenedorcopy {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorcopy h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorcopy p {
+        font-size: 1em;
+    }
+
+    .contenedorde {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorde h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorde p {
+        font-size: 1em;
+    }
+
+    .contenedordw {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedordw h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedordw p {
+        font-size: 1em;
+    }
+
+    .contenedorem {
+        align-items: start;
+        text-align: start;
+
+    }
+
+    .contenedorem h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+
+    }
+
+    .contenedorem p {
+        font-size: 1em;
+    }
+
+    .contenedorent {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorent h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorent p {
+        font-size: 1em;
+    }
+
+    .contenedorfi {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorfi h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorfi p {
+        font-size: 1em;
+    }
+
+    .contenedorme {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorme h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorme p {
+        font-size: 1em;
+    }
+
+    .contenedornu {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedornu h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedornu p {
+        font-size: 1em;
+    }
+
+    .contenedorpsi {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorpsi h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorpsi p {
+        font-size: 1em;
+    }
+
+    .contenedorRs {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorRs h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorRs p {
+        font-size: 1em;
+    }
+
+    .contenedorseo {
+        align-items: start;
+        text-align: start;
+    }
+
+    .contenedorseo h2 {
+        font-size: 2.5em;
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .contenedorseo p {
+        font-size: 1em;
+    }
+
 }

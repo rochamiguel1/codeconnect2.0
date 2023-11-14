@@ -12,6 +12,8 @@
 }
 
 .contenedortitulos h2 {
+    display: flex;
+    justify-content: center;
     font-size: 2.625em;
     font-weight: 600;
     line-height: 1;
@@ -25,6 +27,7 @@
 
 .contenedorpuntos {
     display: flex;
+    justify-content: center;
     background-color: #194973;
 }
 
@@ -34,7 +37,7 @@
    
     /* font-size: .875em;
     font-weight: 600; */
-    gap: 1.5rem;
+    gap: 12rem;
 }
 
 .caja3puntos {
@@ -64,7 +67,7 @@
     justify-content: space-around;
     border-width: 1px;
     height: .0625rem;
-    width: 35rem;
+    width: auto;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
 }
@@ -75,18 +78,13 @@
         font-size: 1.3em;
 
     }
-
     .contenedortitulos h3 {
         font-size: 0.75em;
     }
-
-
     .subtitulopunto {
         font-size: 0.75em;
         line-height: 2rem;
     }
-
-
     .puntos p {
         font-size: 0.75em;
         margin-top: 0.25rem;
@@ -96,13 +94,94 @@
         /* display: none; */
         border-width: 1px;
         height: .0625rem;
-        width: 8rem;
+        width: auto;
     }
 
     .contenedorpuntos2 {
         display: flex;
-        
         gap: .0019rem;
     }
 }
 
+@media only screen and (orientation: landscape) {
+}
+
+@media screen and (min-width:481px) and (max-width:720px){
+    
+    .contenedortitulos h2 {
+        font-size: 1.3em;
+
+    }
+    .contenedortitulos h3 {
+        font-size: 0.75em;
+    }
+    .subtitulopunto {
+        font-size: 0.75em;
+        line-height: 2rem;
+    }
+    .puntos p {
+        font-size: 0.8em;
+        margin-top: 0.25rem;
+    }
+
+    .puntos div {
+        /* display: none; */
+        border-width: 1px;
+        height: .0625rem;
+        width: auto;
+    }
+    .contenedorpuntos{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorpuntos2 {
+        display: flex;
+        gap: .0019rem;
+    }
+
+    .caja3puntos {
+        flex-direction: column;
+        margin: 0.75rem;
+        padding: 0.1rem;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1024px){
+    .contenedortitulos h2 {
+        font-size: 2em;
+
+    }
+    .contenedortitulos h3 {
+        font-size: 1em;
+    }
+    .subtitulopunto {
+        font-size: 1em;
+        line-height: 2rem;
+    }
+    .puntos p {
+        font-size: 1em;
+        margin-top: 0.25rem;
+    }
+
+    .puntos div {
+        /* display: none; */
+        border-width: 1px;
+        height: .0625rem;
+        width: auto;
+    }
+    .contenedorpuntos{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorpuntos2 {
+        display: flex;
+        gap: .0019rem;
+    }
+
+    .caja3puntos {
+        flex-direction: column;
+        margin: 0.75rem;
+        padding: 0.1rem;
+    }
+
+}

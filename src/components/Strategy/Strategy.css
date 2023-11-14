@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .contenedorstrategy {
     display: flex;
     background: #194973;
@@ -34,6 +33,7 @@
     margin-bottom: 2rem
 }
 
+
 .contenedortexto button {
     height: 3.2rem;
     width: 10.875rem;
@@ -62,10 +62,8 @@
 @media screen and (max-width:480px) {
 
     .contenedorstrategy {
-
         padding-left: 2rem;
         gap: .0313rem;
-
     }
     
     .linea1 {
@@ -108,22 +106,89 @@
     }
 
 }
+@media only screen and (orientation: landscape) {
 
-@media screen and (max-width: 720px) {
+}
+@media screen and (min-width:481px) and (max-width: 720px) {
+    .contenedorstrategy {   
+        justify-content:center;
+        align-items: center;
+        height: 15.625rem;
+        color: #ffffff;
+        padding-left: 1.5rem;
+        gap: 1rem;
+    }
+
     .linea1 {
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
 
     .linea2 {
         font-size: 1em;
     }
 
-    /* .contenedortexto button {
-        height: 3rem;
-        width: 8.5rem;
-        font-size: 0.9em;
-        line-height: 0.8rem;
-    } */
+    .grupo1 {
+        gap: 1.5rem;
+        margin-left: 2rem;
+        font-size: 1.4em;
+    }
+    
+    .grupo2 {
+        gap: 1.5rem;
+        margin-left: 2rem;
+        font-size: 1.4em;
+    }
 
+}
+
+@media screen and (min-width:721px) and (max-width: 1024px){
+    .contenedorstrategy {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5rem;
+        gap: 2rem;
+    }
+
+    
+    
+    .linea1 {
+        font-size: 1.9em;
+        line-height: 2.5rem;
+        font-weight: 700
+    }
+    
+    .linea2 {
+        font-size: 1.2em;
+        line-height: 2rem;
+        font-weight: 700;
+        margin-bottom: 2rem
+    }
+    
+    
+    .contenedortexto button {
+        height: 3.2rem;
+        width: 10.875rem;
+        border-radius: 0.25rem;
+        border-width: .0625rem;
+    }
+    
+    .grupo1 {
+        display: flex;
+        gap: 1.5rem;
+        font-size: 1.4em;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+    
+    .grupo2 {
+        display: flex;
+        gap: 1.5rem;
+        font-size: 1.4em;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+    
 
 }
